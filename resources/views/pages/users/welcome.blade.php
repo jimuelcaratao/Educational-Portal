@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
     <!-- Tailwind CDN -->
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Animation -->
@@ -22,7 +22,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
-<body class="antialiased">
+<body class="antialiased bg-[#F1DBC4]">
     <main>
         <div
           class="relative pt-16 pb-32 flex content-center items-center justify-center"
@@ -49,8 +49,8 @@
                     Maecenas feugiat quam ut lorem vulputate vulputate.
                   </p>
                   <div class="mt-8 flex justify-center items-center">
-                      <a href="#" data-aos="zoom-in-up">
-                    <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 lg:text-xl lg:font-bold rounded-lg text-white px-10 sm:px-10 border border-indigo-700 py-4 text-sm">Get Started</button>
+                      <a href="{{ route('home') }}" data-aos="zoom-in-up">
+                    <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#717052] bg-[#717052] transition duration-150 ease-in-out hover:bg-[#7E8057] lg:text-xl lg:font-bold rounded-lg text-white px-10 sm:px-10 border border-[#717052] py-4 text-sm">Get Started</button>
                       </a>
                   </div>
               </div>
@@ -70,24 +70,24 @@
               y="0"
             >
               <polygon
-                class="text-gray-300 fill-current"
+                class="text-white fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
           </div>
         </div>
-        <section class="pb-20 bg-gray-300 -mt-24">
+        <section class="pb-20 bg-white -mt-20">
           <div class="container mx-auto px-4">
             <div class="flex flex-wrap">
             </div>
             <div class="flex flex-wrap items-center mt-44">
               <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <div
-                  class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100" data-aos="fade-right"
+                  class="text-[#717052] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100" data-aos="fade-right"
                 >
                   <i class="fas fa-hands text-xl"></i>
                 </div>
-                <h3 class="text-3xl mb-2 font-semibold leading-normal" data-aos="zoom-right">
+                <h3 class="text-3xl mb-2 font-semibold leading-normal" data-aos="fade-right">
                   Our Mission
                 </h3>
                 <p
@@ -129,7 +129,7 @@
               y="0"
             >
               <polygon
-                class="text-white fill-current"
+                class="text-[#F1DBC4] fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -146,9 +146,9 @@
               <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div class="md:pr-12">
                   <div
-                  data-aos="fade-left" class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
+                  data-aos="fade-left" class="text-[#717052] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
                   >
-                    <i class="fas fa-rocket text-xl"></i>
+                    <i class="fas fa-eye text-xl"></i>
                   </div>
                   <h3 class="text-3xl font-semibold" data-aos="fade-left">Our Vision</h3>
                   <p
@@ -170,7 +170,7 @@
             </div>
           </div>
         </section>
-        <section class="relative pb-20 bg-gray-300">
+        <section class="relative pb-20 bg-white">
             <div
             class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style="height: 80px;"
@@ -185,7 +185,7 @@
               y="0"
             >
               <polygon
-                class="text-gray-300 fill-current"
+                class="text-white fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -196,9 +196,9 @@
               <div class="flex flex-wrap items-center mt-20">
                 <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
                   <div
-                  data-aos="fade-right" class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
+                  data-aos="fade-right" class="text-[#717052] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
                   >
-                    <i class="fas fa-hands text-xl"></i>
+                    <i class="fas fa-user text-xl"></i>
                   </div>
                   <h3 class="text-3xl mb-2 font-semibold leading-normal" data-aos="fade-right">
                     Our Respective Dean
@@ -249,7 +249,8 @@
             </div>
           </section>
       </main>
-      <footer class="relative bg-gray-500 pt-8 pb-6">
+
+      <footer class="relative bg-[#F1DBC4] pt-8 pb-6">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px;"
@@ -264,137 +265,35 @@
             y="0"
           >
             <polygon
-              class="text-gray-300 fill-current"
+              class="text-[#F1DBC4] fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
         </div>
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap">
-            <div class="w-full lg:w-6/12 px-4">
-              <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
-              <h5 class="text-lg mt-0 mb-2 text-gray-700">
-                Find us on any of these platforms, we respond 1-2 business days.
-              </h5>
-              <div class="mt-6">
-                <button
-                  class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i class="flex fab fa-twitter"></i></button
-                ><button
-                  class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i class="flex fab fa-facebook-square"></i></button
-                ><button
-                  class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i class="flex fab fa-dribbble"></i></button
-                ><button
-                  class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i class="flex fab fa-github"></i>
-                </button>
-              </div>
-            </div>
-            <div class="w-full lg:w-6/12 px-4">
-              <div class="flex flex-wrap items-top mb-6">
-                <div class="w-full lg:w-4/12 px-4 ml-auto">
-                  <span
-                    class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                    >Useful Links</span
-                  >
-                  <ul class="list-unstyled">
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/presentation"
-                        >About Us</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com"
-                        >Blog</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial"
-                        >Github</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free"
-                        >Free Products</a
-                      >
-                    </li>
-                  </ul>
+        <div class="max-w-2xl mx-auto py-10">
+            <div class="text-center">
+                <h3 class="text-3xl font-semibold leading-normal mb-3"> Ready to get started at E-Portal? </h3>
+                <p class="text-gray-700"> Stay updated. All day, every day. </p>
+                <div class="flex justify-center my-10">
+                    <div class="flex justify-center items-center">
+                        <a href="{{ route('home') }}" data-aos="zoom-in-up">
+                      <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#717052] bg-[#717052] transition duration-150 ease-in-out hover:bg-[#7E8057] lg:text-xl lg:font-bold rounded-lg text-white px-10 sm:px-10 border border-[#717052] py-4 text-sm">Get Started</button>
+                        </a>
+                    </div>
                 </div>
-                <div class="w-full lg:w-4/12 px-4">
-                  <span
-                    class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                    >Other Resources</span
-                  >
-                  <ul class="list-unstyled">
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
-                        >MIT License</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/terms"
-                        >Terms &amp; Conditions</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/privacy"
-                        >Privacy Policy</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us"
-                        >Contact Us</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
-          </div>
-          <hr class="my-6 border-gray-400" />
-          <div
-            class="flex flex-wrap items-center md:justify-between justify-center"
-          >
-            <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-              <div class="text-sm text-gray-600 font-semibold py-1">
-                Copyright © 2019 Tailwind Starter Kit by
-                <a
-                  href="https://www.creative-tim.com"
-                  class="text-gray-600 hover:text-gray-900"
-                  >Creative Tim</a
-                >.
-              </div>
+            <hr class="border-[#717052]"/>
+            <div class="mt-16 flex flex-col text-center text-sm text-gray-700">
+                <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; Educational Portal, <span id="date"></span>. </p>
             </div>
-          </div>
         </div>
       </footer>
 </body>
+
+<script>
+const d = new Date();
+document.getElementById("date").innerHTML = d.getFullYear();
+</script>
 
 <script>
     // You can also pass an optional settings object
