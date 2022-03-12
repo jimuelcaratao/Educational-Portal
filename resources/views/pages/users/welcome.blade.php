@@ -93,22 +93,15 @@
                 <p
                   class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700" data-aos="fade-right"
                 >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
-                </p>
-                <p
-                  class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700" data-aos="fade-right"
-                >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
-                Maecenas feugiat quam ut lorem vulputate vulputate.
+                The University calls to develop God-loving. people-driven, patriotic, industry sensitive,
+                environmentally conscious, globally competitive and resilient graduates.
                 </p>
               </div>
               <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-20" data-aos="fade-up">
                 <img
                   alt="..."
                   class="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
+                  src="https://images.unsplash.com/photo-1521316730702-829a8e30dfd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 />
               </div>
             </div>
@@ -140,7 +133,7 @@
                 <img
                   alt="..."
                   class="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
+                  src="https://images.unsplash.com/photo-1540162875225-3f6b56d69fe8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
                 />
               </div>
               <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -154,17 +147,11 @@
                   <p
                   class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700" data-aos="fade-left"
                 >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
+                The University of Caloocan City aims to have a quality higher institution with stakeholders imbued
+                with relevant knowdedge, skills, and values for the attainment of community-driven, industtry sensitive,
+                environmentally conscious, resilient, globally competitive university in and for the love of God, country
+                and people.
                 </p>
-                <p
-                  class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700" data-aos="fade-left"
-                >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
-                Maecenas feugiat quam ut lorem vulputate vulputate.
-                </p>
-
                 </div>
               </div>
             </div>
@@ -201,48 +188,23 @@
                     <i class="fas fa-user text-xl"></i>
                   </div>
                   <h3 class="text-3xl mb-2 font-semibold leading-normal" data-aos="fade-right">
-                    Our Respective Dean
+                    Dr. Shirley V. Saragcon
                   </h3>
                   <p
                     class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700" data-aos="fade-right"
                   >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
-                  </p>
-                  <p
-                    class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700" data-aos="fade-right"
-                  >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
-                  Maecenas feugiat quam ut lorem vulputate vulputate.
+                  Dean, College of Business and Accountancy
                   </p>
                 </div>
-                <div class="w-full md:w-4/12 px-4 mr-auto ml-auto" data-aos="fade-up">
+                <div class="w-full md:w-3/12 px-4 mr-auto ml-auto" data-aos="fade-up">
                   <div
-                    class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-pink-600"
+                    class="relative flex flex-col min-w-0 break-words w-full mb-6"
                   >
                     <img
-                      alt="..."
-                      src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
-                      class="w-full align-middle rounded-t-lg"
+                      alt="dean"
+                      src="img/dean.png"
+                      class="w-full align-middle rounded-lg"
                     />
-                    <blockquote class="relative p-4 mb-4">
-                      <svg
-                        preserveAspectRatio="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 583 95"
-                        class="absolute left-0 w-full block"
-                        style="height: 95px; top: -94px;"
-                      >
-                        <polygon
-                          points="-30,95 583,95 583,65"
-                          class="text-pink-600 fill-current"
-                        ></polygon>
-                      </svg>
-                      <h4 class="text-xl font-bold text-white">
-                        Dr. John Doe
-                      </h4>
-                    </blockquote>
                   </div>
                 </div>
               </div>
