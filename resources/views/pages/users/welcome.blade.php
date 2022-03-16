@@ -22,7 +22,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
-<body class="antialiased bg-[#F1DBC4]">
+<body class="antialiased bg-[#F7FCD0]">
     <main>
         <div
           class="relative pt-16 pb-32 flex content-center items-center justify-center"
@@ -44,13 +44,13 @@
                     EDUCATIONAL PORTAL
                   </h1>
                   <p class="mt-4 md:mt-8 text-md md:text-lg text-gray-300" data-aos="zoom-in-up">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
-                    Maecenas feugiat quam ut lorem vulputate vulputate.
+                    This Educational portal is the output of the study which comprises different areas that
+                    can influence and gives impact to the motivation and competence of students in Bachelor
+                    of Science in Office Administration.
                   </p>
                   <div class="mt-8 flex justify-center items-center">
                       <a href="{{ route('home') }}" data-aos="zoom-in-up">
-                    <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#717052] bg-[#717052] transition duration-150 ease-in-out hover:bg-[#7E8057] lg:text-xl lg:font-bold rounded-lg text-white px-10 sm:px-10 border border-[#717052] py-4 text-sm">Get Started</button>
+                    <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FE6034] bg-[#FE6034] transition duration-150 ease-in-out hover:bg-[#fa4917] lg:text-lg lg:font-semibold rounded-lg text-white px-10 sm:px-10 border border-[#FE6034] py-4 text-sm">Get Started</button>
                       </a>
                   </div>
               </div>
@@ -83,11 +83,11 @@
             <div class="flex flex-wrap items-center mt-44">
               <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <div
-                  class="text-[#717052] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100" data-aos="fade-right"
+                  class="text-[#292A42] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100" data-aos="fade-right"
                 >
                   <i class="fas fa-hands text-xl"></i>
                 </div>
-                <h3 class="text-3xl mb-2 font-semibold leading-normal" data-aos="fade-right">
+                <h3 class="text-3xl text-[#FE6034] mb-2 font-semibold leading-normal" data-aos="fade-right">
                   Our Mission
                 </h3>
                 <p
@@ -122,7 +122,7 @@
               y="0"
             >
               <polygon
-                class="text-[#F1DBC4] fill-current"
+                class="text-[#F7FCD0] fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -139,11 +139,11 @@
               <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div class="md:pr-12">
                   <div
-                  data-aos="fade-left" class="text-[#717052] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
+                  data-aos="fade-left" class="text-[#292A42] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
                   >
                     <i class="fas fa-eye text-xl"></i>
                   </div>
-                  <h3 class="text-3xl font-semibold" data-aos="fade-left">Our Vision</h3>
+                  <h3 class="text-3xl font-semibold text-[#FE6034]" data-aos="fade-left">Our Vision</h3>
                   <p
                   class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700" data-aos="fade-left"
                 >
@@ -183,11 +183,11 @@
               <div class="flex flex-wrap items-center mt-20">
                 <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
                   <div
-                  data-aos="fade-right" class="text-[#717052] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
+                  data-aos="fade-right" class="text-[#292A42] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
                   >
                     <i class="fas fa-user text-xl"></i>
                   </div>
-                  <h3 class="text-3xl mb-2 font-semibold leading-normal" data-aos="fade-right">
+                  <h3 class="text-3xl mb-2 font-semibold leading-normal text-[#FE6034]" data-aos="fade-right">
                     Dr. Shirley V. Saragcon
                   </h3>
                   <p
@@ -212,7 +212,7 @@
           </section>
       </main>
 
-      <footer class="relative bg-[#F1DBC4] pt-8 pb-6">
+      <footer class="relative bg-[#292A42] pt-8 pb-6">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px;"
@@ -227,25 +227,25 @@
             y="0"
           >
             <polygon
-              class="text-[#F1DBC4] fill-current"
+              class="text-[#292A42] fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
         </div>
         <div class="max-w-2xl mx-auto py-10">
             <div class="text-center">
-                <h3 class="text-3xl font-semibold leading-normal mb-3"> Ready to get started at E-Portal? </h3>
-                <p class="text-gray-700"> Stay updated. All day, every day. </p>
+                <h3 class="text-3xl font-semibold leading-normal mb-3 text-white"> Ready to get started at E-Portal? </h3>
+                <p class="text-white"> Stay updated. All day, every day. </p>
                 <div class="flex justify-center my-10">
                     <div class="flex justify-center items-center">
                         <a href="{{ route('home') }}" data-aos="zoom-in-up">
-                      <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#717052] bg-[#717052] transition duration-150 ease-in-out hover:bg-[#7E8057] lg:text-xl lg:font-bold rounded-lg text-white px-10 sm:px-10 border border-[#717052] py-4 text-sm">Get Started</button>
+                      <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FE6034] bg-[#FE6034] transition duration-150 ease-in-out hover:bg-[#fa4917] lg:text-lg lg:font-semibold rounded-lg text-white px-10 sm:px-10 border border-[#FE6034] py-4 text-sm">Get Started</button>
                         </a>
                     </div>
                 </div>
             </div>
-            <hr class="border-[#717052]"/>
-            <div class="mt-16 flex flex-col text-center text-sm text-gray-700">
+            <hr class="border-white"/>
+            <div class="mt-16 flex flex-col text-center text-sm text-white">
                 <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; Educational Portal, <span id="date"></span>. </p>
             </div>
         </div>

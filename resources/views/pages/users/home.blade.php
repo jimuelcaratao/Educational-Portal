@@ -1,6 +1,6 @@
 <x-user-layout>
     <!-- hero -->
-    <div class="hero bg-[#F1DBC4] py-24">
+    <div class="hero bg-[#F7FCD0] py-24">
         <div class="container px-7 sm:px-1 lg:px-10 xl:px-12 mx-auto">
             <div class="hero-wrapper grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
 
@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="hero-image col-span-6" data-aos="zoom-in">
-                    <img class="w-full h-full mx-auto lg:max-w-2xl" src="img/education.png" alt="glasses photo">
+                    <img class="w-full h-full mx-auto lg:max-w-2xl" src="img/educ3.png" alt="glasses photo">
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
     <!-- professors -->
     <div id="profs" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-16 md:py-28">
         <div class="text-center pb-12">
-            <h1 class="font-bold text-3xl md:text-4xl font-heading text-[#717052]">
+            <h1 class="font-bold text-3xl md:text-4xl font-heading text-[#FE6034]">
                 Check our awesome Professors
             </h1>
         </div>
@@ -89,7 +89,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 mb-12">
         <article>
             <div id="career" class="text-center pb-12">
-                <h1 class="font-bold text-3xl md:text-4xl font-heading text-[#717052]">
+                <h1 class="font-bold text-3xl md:text-4xl font-heading text-[#FE6034]">
                     Career Opportunities
                 </h1>
             </div>
@@ -139,7 +139,7 @@
     <div id="org" class="px-4 xl:px-36 py-14">
         <div class="mx-auto container">
             <div id="career" class="text-center pb-8">
-                <h1 class="font-bold text-3xl md:text-4xl font-heading text-[#717052]">
+                <h1 class="font-bold text-3xl md:text-4xl font-heading text-[#FE6034]">
                     Organizations
                 </h1>
             </div>
@@ -226,7 +226,7 @@
     <!-- tutorials -->
     <div id="tut" class="bg-white py-20">
     <div id="career" class="text-center pb-8">
-        <h1 class="font-bold text-3xl md:text-4xl font-heading text-[#717052]">
+        <h1 class="font-bold text-3xl md:text-4xl font-heading text-[#FE6034]">
             Tutorials
         </h1>
     </div>
@@ -238,7 +238,7 @@
     <!-- history -->
     <div id="history" class="container mx-auto px-4 py-28">
         <div id="history" class="text-center pb-8">
-            <h1 class="font-bold text-3xl md:text-4xl font-heading text-[#717052]">
+            <h1 class="font-bold text-3xl md:text-4xl font-heading text-[#FE6034]">
                 Brief background of our course
             </h1>
         </div>
@@ -275,14 +275,14 @@
     </div>
 
     <!-- footer for home page -->
-    <footer class="relative bg-[#F1DBC4] pt-8 pb-3">
+    <footer class="relative bg-[#292A42] pt-8 pb-3">
         <div class="max-w-2xl mx-auto py-10">
             <div class="text-center">
-                <h3 class="text-3xl font-semibold leading-normal mb-3"> EDUCATIONAL PORTAL </h3>
-                <p class="text-gray-700"> Stay updated. All day, every day. </p>
+                <h3 class="text-3xl text-white font-semibold leading-normal mb-3"> EDUCATIONAL PORTAL </h3>
+                <p class="text-white"> Stay updated. All day, every day. </p>
             </div>
-            <hr class="border-[#717052] mt-8"/>
-            <div class="mt-8 flex flex-col text-center text-sm text-gray-700">
+            <hr class="border-white mt-8"/>
+            <div class="mt-8 flex flex-col text-center text-sm text-white">
                 <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; Educational Portal, <span id="date"></span>. </p>
             </div>
         </div>
@@ -292,7 +292,7 @@
 
       <div x-data="topBtn">
         <button @click="scrolltoTop" id="topButton"
-            class="fixed z-10 hidden p-3 text-white bg-[#52563A] rounded-full shadow-md bottom-10 right-10" data-aos="zoom-in">
+            class="fixed z-10 hidden p-3 text-white bg-[#FE6034] rounded-full shadow-md bottom-10 right-10" data-aos="zoom-in">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
