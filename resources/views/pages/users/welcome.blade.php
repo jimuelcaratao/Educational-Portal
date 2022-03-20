@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
     <!-- Tailwind CDN -->
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Animation -->
@@ -22,7 +22,69 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
-<body class="antialiased">
+<body class="antialiased bg-[#F7FCD0]">
+        <nav
+        class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 "
+    >
+        <div
+        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+        >
+        <div
+            class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        >
+            <a
+            class="text-sm font-bold leading-relaxed inline-block mr-4 whitespace-nowrap uppercase text-white"
+            href="#"
+            >
+            <img class="w-16 md:w-24" src="img/eportal.png" alt="logo"></a>
+            <button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')"
+            >
+            <i class="text-white fas fa-bars"></i>
+            </button>
+        </div>
+        <div
+            class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+            id="example-collapse-navbar"
+        >
+            <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                <li class="flex items-center">
+                    <a
+                    class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    href="#"
+                    ><i
+                        class="lg:text-gray-300 text-gray-500 fas fa-file-alt text-lg leading-lg mr-2"
+                    ></i>
+                    About</a
+                    >
+                </li>
+                <li class="flex items-center">
+                    <a
+                    class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    href="#"
+                    ><i
+                        class="lg:text-gray-300 text-gray-500 fas fa-info-circle text-lg leading-lg mr-2"
+                    ></i>
+                    Help</a
+                    >
+                </li>
+                <li class="flex items-center">
+                    <a
+                    class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    href="#"
+                    ><i
+                        class="lg:text-gray-300 text-gray-500 fas fa-phone text-lg leading-lg mr-2"
+                    ></i>
+                    Contact Us</a
+                    >
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
     <main>
         <div
           class="relative pt-16 pb-32 flex content-center items-center justify-center"
@@ -44,13 +106,13 @@
                     EDUCATIONAL PORTAL
                   </h1>
                   <p class="mt-4 md:mt-8 text-md md:text-lg text-gray-300" data-aos="zoom-in-up">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
-                    Maecenas feugiat quam ut lorem vulputate vulputate.
+                    This Educational portal is the output of the study which comprises different areas that
+                    can influence and gives impact to the motivation and competence of students in Bachelor
+                    of Science in Office Administration.
                   </p>
                   <div class="mt-8 flex justify-center items-center">
-                      <a href="#" data-aos="zoom-in-up">
-                    <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 lg:text-xl lg:font-bold rounded-lg text-white px-10 sm:px-10 border border-indigo-700 py-4 text-sm">Get Started</button>
+                      <a href="{{ route('home') }}" data-aos="zoom-in-up">
+                    <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FE6034] bg-[#FE6034] transition duration-150 ease-in-out hover:bg-[#fa4917] lg:text-lg lg:font-semibold rounded-lg text-white px-10 sm:px-10 border border-[#FE6034] py-4 text-sm">Get Started</button>
                       </a>
                   </div>
               </div>
@@ -70,45 +132,38 @@
               y="0"
             >
               <polygon
-                class="text-gray-300 fill-current"
+                class="text-white fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
           </div>
         </div>
-        <section class="pb-20 bg-gray-300 -mt-24">
+        <section class="pb-20 bg-white -mt-20">
           <div class="container mx-auto px-4">
             <div class="flex flex-wrap">
             </div>
             <div class="flex flex-wrap items-center mt-44">
               <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <div
-                  class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100" data-aos="fade-right"
+                  class="text-[#292A42] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100" data-aos="fade-right"
                 >
                   <i class="fas fa-hands text-xl"></i>
                 </div>
-                <h3 class="text-3xl mb-2 font-semibold leading-normal" data-aos="zoom-right">
+                <h3 class="text-3xl text-[#FE6034] mb-2 font-semibold leading-normal" data-aos="fade-right">
                   Our Mission
                 </h3>
                 <p
                   class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700" data-aos="fade-right"
                 >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
-                </p>
-                <p
-                  class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700" data-aos="fade-right"
-                >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
-                Maecenas feugiat quam ut lorem vulputate vulputate.
+                The University calls to develop God-loving. people-driven, patriotic, industry sensitive,
+                environmentally conscious, globally competitive and resilient graduates.
                 </p>
               </div>
               <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-20" data-aos="fade-up">
                 <img
                   alt="..."
                   class="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
+                  src="https://images.unsplash.com/photo-1521316730702-829a8e30dfd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 />
               </div>
             </div>
@@ -129,7 +184,7 @@
               y="0"
             >
               <polygon
-                class="text-white fill-current"
+                class="text-[#F7FCD0] fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -140,37 +195,31 @@
                 <img
                   alt="..."
                   class="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
+                  src="https://images.unsplash.com/photo-1540162875225-3f6b56d69fe8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
                 />
               </div>
               <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div class="md:pr-12">
                   <div
-                  data-aos="fade-left" class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
+                  data-aos="fade-left" class="text-[#292A42] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
                   >
-                    <i class="fas fa-rocket text-xl"></i>
+                    <i class="fas fa-eye text-xl"></i>
                   </div>
-                  <h3 class="text-3xl font-semibold" data-aos="fade-left">Our Vision</h3>
+                  <h3 class="text-3xl font-semibold text-[#FE6034]" data-aos="fade-right">Our Vision</h3>
                   <p
-                  class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700" data-aos="fade-left"
+                  class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700" data-aos="fade-right"
                 >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
+                The University of Caloocan City aims to have a quality higher institution with stakeholders imbued
+                with relevant knowdedge, skills, and values for the attainment of community-driven, industtry sensitive,
+                environmentally conscious, resilient, globally competitive university in and for the love of God, country
+                and people.
                 </p>
-                <p
-                  class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700" data-aos="fade-left"
-                >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
-                Maecenas feugiat quam ut lorem vulputate vulputate.
-                </p>
-
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="relative pb-20 bg-gray-300">
+        <section class="relative pb-20 bg-white">
             <div
             class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style="height: 80px;"
@@ -185,7 +234,7 @@
               y="0"
             >
               <polygon
-                class="text-gray-300 fill-current"
+                class="text-white fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -196,60 +245,36 @@
               <div class="flex flex-wrap items-center mt-20">
                 <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
                   <div
-                  data-aos="fade-right" class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
+                  data-aos="fade-right" class="text-[#292A42] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
                   >
-                    <i class="fas fa-hands text-xl"></i>
+                    <i class="fas fa-user text-xl"></i>
                   </div>
-                  <h3 class="text-3xl mb-2 font-semibold leading-normal" data-aos="fade-right">
-                    Our Respective Dean
+                  <h3 class="text-3xl mb-2 font-semibold leading-normal text-[#FE6034]" data-aos="fade-right">
+                    Dr. Shirley V. Saragcon
                   </h3>
                   <p
                     class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700" data-aos="fade-right"
                   >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
-                  </p>
-                  <p
-                    class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700" data-aos="fade-right"
-                  >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nulla pretium accumsan elementum. Maecenas feugiat quam ut lorem vulputate vulputate.
-                  Maecenas feugiat quam ut lorem vulputate vulputate.
+                  Dean, College of Business and Accountancy
                   </p>
                 </div>
-                <div class="w-full md:w-4/12 px-4 mr-auto ml-auto" data-aos="fade-up">
+                <div class="w-full md:w-3/12 px-4 mr-auto ml-auto" data-aos="fade-up">
                   <div
-                    class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-pink-600"
+                    class="relative flex flex-col min-w-0 break-words w-full mb-6"
                   >
                     <img
-                      alt="..."
-                      src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
-                      class="w-full align-middle rounded-t-lg"
+                      alt="dean"
+                      src="img/dean.png"
+                      class="w-full align-middle rounded-lg"
                     />
-                    <blockquote class="relative p-4 mb-4">
-                      <svg
-                        preserveAspectRatio="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 583 95"
-                        class="absolute left-0 w-full block"
-                        style="height: 95px; top: -94px;"
-                      >
-                        <polygon
-                          points="-30,95 583,95 583,65"
-                          class="text-pink-600 fill-current"
-                        ></polygon>
-                      </svg>
-                      <h4 class="text-xl font-bold text-white">
-                        Dr. John Doe
-                      </h4>
-                    </blockquote>
                   </div>
                 </div>
               </div>
             </div>
           </section>
       </main>
-      <footer class="relative bg-gray-500 pt-8 pb-6">
+
+      <footer class="relative bg-[#292A42] pt-8 pb-6">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px;"
@@ -264,137 +289,50 @@
             y="0"
           >
             <polygon
-              class="text-gray-300 fill-current"
+              class="text-[#292A42] fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
         </div>
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap">
-            <div class="w-full lg:w-6/12 px-4">
-              <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
-              <h5 class="text-lg mt-0 mb-2 text-gray-700">
-                Find us on any of these platforms, we respond 1-2 business days.
-              </h5>
-              <div class="mt-6">
-                <button
-                  class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i class="flex fab fa-twitter"></i></button
-                ><button
-                  class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i class="flex fab fa-facebook-square"></i></button
-                ><button
-                  class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i class="flex fab fa-dribbble"></i></button
-                ><button
-                  class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i class="flex fab fa-github"></i>
-                </button>
-              </div>
-            </div>
-            <div class="w-full lg:w-6/12 px-4">
-              <div class="flex flex-wrap items-top mb-6">
-                <div class="w-full lg:w-4/12 px-4 ml-auto">
-                  <span
-                    class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                    >Useful Links</span
-                  >
-                  <ul class="list-unstyled">
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/presentation"
-                        >About Us</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com"
-                        >Blog</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial"
-                        >Github</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free"
-                        >Free Products</a
-                      >
-                    </li>
-                  </ul>
+        <div class="max-w-2xl mx-auto py-10">
+
+            <div class="flex justify-center items-center m-auto py-4">
+                <div class="flex justify-between gap-6">
+                    <img class="w-20" src="img/ucc.png" alt="ucc-logo">
+                    <img class="w-20" src="img/course.png" alt="ucc-logo">
                 </div>
-                <div class="w-full lg:w-4/12 px-4">
-                  <span
-                    class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                    >Other Resources</span
-                  >
-                  <ul class="list-unstyled">
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
-                        >MIT License</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/terms"
-                        >Terms &amp; Conditions</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/privacy"
-                        >Privacy Policy</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us"
-                        >Contact Us</a
-                      >
-                    </li>
-                  </ul>
+            </div>
+
+            <div class="text-center">
+                <h3 class="text-3xl font-semibold leading-normal mb-3 text-white"> Ready to get started at E-Portal? </h3>
+                <p class="text-white"> Stay updated. All day, every day. </p>
+                <div class="flex justify-center my-10">
+                    <div class="flex justify-center items-center">
+                        <a href="{{ route('home') }}" data-aos="zoom-in-up">
+                      <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FE6034] bg-[#FE6034] transition duration-150 ease-in-out hover:bg-[#fa4917] lg:text-lg lg:font-semibold rounded-lg text-white px-10 sm:px-10 border border-[#FE6034] py-4 text-sm">Get Started</button>
+                        </a>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <hr class="my-6 border-gray-400" />
-          <div
-            class="flex flex-wrap items-center md:justify-between justify-center"
-          >
-            <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-              <div class="text-sm text-gray-600 font-semibold py-1">
-                Copyright © 2019 Tailwind Starter Kit by
-                <a
-                  href="https://www.creative-tim.com"
-                  class="text-gray-600 hover:text-gray-900"
-                  >Creative Tim</a
-                >.
-              </div>
+            <hr class="border-white"/>
+            <div class="mt-16 flex flex-col text-center text-sm text-white">
+                <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; Educational Portal, <span id="date"></span>. </p>
             </div>
-          </div>
         </div>
       </footer>
 </body>
+
+<script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+
+<script>
+const d = new Date();
+document.getElementById("date").innerHTML = d.getFullYear();
+</script>
 
 <script>
     // You can also pass an optional settings object
