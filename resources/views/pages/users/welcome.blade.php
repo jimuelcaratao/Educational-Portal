@@ -23,6 +23,68 @@
 </head>
 
 <body class="antialiased bg-[#F7FCD0]">
+        <nav
+        class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 "
+    >
+        <div
+        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+        >
+        <div
+            class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        >
+            <a
+            class="text-sm font-bold leading-relaxed inline-block mr-4 whitespace-nowrap uppercase text-white"
+            href="#"
+            >
+            <img class="w-16 md:w-24" src="img/eportal.png" alt="logo"></a>
+            <button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')"
+            >
+            <i class="text-white fas fa-bars"></i>
+            </button>
+        </div>
+        <div
+            class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+            id="example-collapse-navbar"
+        >
+            <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                <li class="flex items-center">
+                    <a
+                    class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    href="#"
+                    ><i
+                        class="lg:text-gray-300 text-gray-500 fas fa-file-alt text-lg leading-lg mr-2"
+                    ></i>
+                    About</a
+                    >
+                </li>
+                <li class="flex items-center">
+                    <a
+                    class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    href="#"
+                    ><i
+                        class="lg:text-gray-300 text-gray-500 fas fa-info-circle text-lg leading-lg mr-2"
+                    ></i>
+                    Help</a
+                    >
+                </li>
+                <li class="flex items-center">
+                    <a
+                    class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    href="#"
+                    ><i
+                        class="lg:text-gray-300 text-gray-500 fas fa-phone text-lg leading-lg mr-2"
+                    ></i>
+                    Contact Us</a
+                    >
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
     <main>
         <div
           class="relative pt-16 pb-32 flex content-center items-center justify-center"
@@ -143,9 +205,9 @@
                   >
                     <i class="fas fa-eye text-xl"></i>
                   </div>
-                  <h3 class="text-3xl font-semibold text-[#FE6034]" data-aos="fade-left">Our Vision</h3>
+                  <h3 class="text-3xl font-semibold text-[#FE6034]" data-aos="fade-right">Our Vision</h3>
                   <p
-                  class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700" data-aos="fade-left"
+                  class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700" data-aos="fade-right"
                 >
                 The University of Caloocan City aims to have a quality higher institution with stakeholders imbued
                 with relevant knowdedge, skills, and values for the attainment of community-driven, industtry sensitive,
@@ -233,6 +295,14 @@
           </svg>
         </div>
         <div class="max-w-2xl mx-auto py-10">
+
+            <div class="flex justify-center items-center m-auto py-4">
+                <div class="flex justify-between gap-6">
+                    <img class="w-20" src="img/ucc.png" alt="ucc-logo">
+                    <img class="w-20" src="img/course.png" alt="ucc-logo">
+                </div>
+            </div>
+
             <div class="text-center">
                 <h3 class="text-3xl font-semibold leading-normal mb-3 text-white"> Ready to get started at E-Portal? </h3>
                 <p class="text-white"> Stay updated. All day, every day. </p>
@@ -251,6 +321,13 @@
         </div>
       </footer>
 </body>
+
+<script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
 
 <script>
 const d = new Date();

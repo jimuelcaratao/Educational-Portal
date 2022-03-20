@@ -30,7 +30,7 @@
 
 <body class="font-sans antialiased bg-gray-100">
     <div class="min-h-screen">
-        @include('navigation-user')
+        {{-- @include('navigation-user') --}}
 
         <!-- Page Heading -->
         {{-- <header class="bg-white shadow">
