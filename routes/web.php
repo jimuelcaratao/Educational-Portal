@@ -34,7 +34,7 @@ Route::get('/about', function () {
 })->name('about');
 
 Route::get('/contact-us', function () {
-    return view('pages.users.about');
+    return view('pages.users.contact-us');
 })->name('contact-us');
 
 Route::get('/help', function () {

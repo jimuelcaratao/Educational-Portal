@@ -27,7 +27,7 @@
         <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
             <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                 <a class="text-sm font-bold leading-relaxed inline-block mr-4 whitespace-nowrap uppercase text-white"
-                    href="#">
+                    href="{{ route('welcome') }}">
                     <img class="w-16 md:w-24" src="img/eportal.png" alt="logo"></a>
                 <button
                     class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -40,19 +40,19 @@
                 <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
                     <li class="flex items-center">
                         <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                            href="#"><i
+                            href="{{ route('about') }}"><i
                                 class="lg:text-gray-300 text-gray-500 fas fa-file-alt text-lg leading-lg mr-2"></i>
                             About</a>
                     </li>
                     <li class="flex items-center">
                         <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                            href="#"><i
+                            href="{{ route('help') }}"><i
                                 class="lg:text-gray-300 text-gray-500 fas fa-info-circle text-lg leading-lg mr-2"></i>
                             Help</a>
                     </li>
                     <li class="flex items-center">
                         <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                            href="#"><i class="lg:text-gray-300 text-gray-500 fas fa-phone text-lg leading-lg mr-2"></i>
+                            href="{{ route('contact-us') }}"><i class="lg:text-gray-300 text-gray-500 fas fa-phone text-lg leading-lg mr-2"></i>
                             Contact Us</a>
                     </li>
                 </ul>
