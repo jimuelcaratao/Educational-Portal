@@ -64,7 +64,7 @@
         <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
             <div class="absolute top-0 w-full h-full bg-center bg-cover"
                 style='background-image: url(https://images.unsplash.com/photo-1514894780887-121968d00567?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80);'>
-                <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+                <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-[#000]"></span>
             </div>
             <div class="container relative mx-auto">
                 <div class="items-center flex flex-wrap">
@@ -99,8 +99,26 @@
             <div class="container mx-auto px-4">
                 <div class="flex flex-wrap">
                 </div>
-                <div class="flex flex-wrap items-center mt-44">
-                    <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+                <div class="text-center mx-auto mt-52 mb-[60px] lg:mb-20 max-w-[510px]" data-aos="fade-up">
+                    <h2
+                       class="
+                       font-bold
+                       text-3xl
+                       sm:text-4xl
+                       md:text-[40px]
+                       text-dark
+                       mb-4
+                       "
+                       >
+                       Mission and Vission
+                    </h2>
+                    <p class="text-base text-body-color">
+                       There are many variations of passages of Lorem Ipsum available
+                       but the majority have suffered alteration in some form.
+                    </p>
+                 </div>
+                <div class="flex flex-wrap items-center mt-24">
+                    {{-- <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
                         <div class="text-[#292A42] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
                             data-aos="fade-right">
                             <i class="fas fa-hands text-xl"></i>
@@ -112,6 +130,10 @@
                             The University calls to develop God-loving. people-driven, patriotic, industry sensitive,
                             environmentally conscious, globally competitive and resilient graduates.
                         </p>
+                    </div> --}}
+                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-20" data-aos="fade-up">
+                        <img alt="..." class="max-w-full rounded-lg shadow-lg"
+                            src="https://images.unsplash.com/photo-1521316730702-829a8e30dfd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
                     </div>
                     <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-20" data-aos="fade-up">
                         <img alt="..." class="max-w-full rounded-lg shadow-lg"
@@ -120,41 +142,199 @@
                 </div>
             </div>
         </section>
-        <section class="relative py-20">
-            <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-                style="height: 80px;">
-                <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg"
-                    preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
-                    <polygon class="text-[#F7FCD0] fill-current" points="2560 0 2560 100 0 100"></polygon>
-                </svg>
-            </div>
-            <div class="container mx-auto px-4">
-                <div class="items-center flex flex-wrap">
-                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-8" data-aos="fade-up">
-                        <img alt="..." class="max-w-full rounded-lg shadow-lg"
-                            src="https://images.unsplash.com/photo-1540162875225-3f6b56d69fe8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
-                    </div>
-                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
-                        <div class="md:pr-12">
-                            <div data-aos="fade-left"
-                                class="text-[#292A42] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
-                                <i class="fas fa-eye text-xl"></i>
-                            </div>
-                            <h3 class="text-3xl font-semibold text-[#FE6034]" data-aos="fade-right">Our Vision</h3>
-                            <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700" data-aos="fade-right">
-                                The University of Caloocan City aims to have a quality higher institution with
-                                stakeholders imbued
-                                with relevant knowdedge, skills, and values for the attainment of community-driven,
-                                industtry sensitive,
-                                environmentally conscious, resilient, globally competitive university in and for the
-                                love of God, country
-                                and people.
-                            </p>
-                        </div>
+
+        <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
+        <section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20">
+        <div class="container">
+            <div class="flex flex-wrap justify-center -mx-4" data-aos="fade-up">
+                <div class="w-full px-4">
+                    <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
+                    <h2
+                        class="
+                        font-bold
+                        text-3xl
+                        sm:text-4xl
+                        md:text-[40px]
+                        text-dark
+                        mb-4
+                        "
+                        >
+                        Our Recent News
+                    </h2>
+                    <p class="text-base text-body-color">
+                        There are many variations of passages of Lorem Ipsum available
+                        but the majority have suffered alteration in some form.
+                    </p>
                     </div>
                 </div>
             </div>
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4" data-aos="fade-up">
+                    <div class="max-w-[370px] mx-auto mb-10">
+                    <div class="rounded overflow-hidden mb-8">
+                        <img
+                            src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-01.jpg"
+                            alt="image"
+                            class="w-full"
+                            />
+                    </div>
+                    <div>
+                        <span
+                            class="
+                            bg-[#FE6034]
+                            rounded
+                            inline-block
+                            text-center
+                            py-1
+                            px-4
+                            text-xs
+                            leading-loose
+                            font-semibold
+                            text-white
+                            mb-5
+                            "
+                            >
+                        Dec 22, 2023
+                        </span>
+                        <h3>
+                            <a
+                                href="javascript:void(0)"
+                                class="
+                                font-semibold
+                                text-xl
+                                sm:text-2xl
+                                lg:text-xl
+                                xl:text-2xl
+                                mb-4
+                                inline-block
+                                text-dark
+                                "
+                                >
+                            Meet AutoManage, the best AI management tools
+                            </a>
+                        </h3>
+                        <p class="text-base text-body-color">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </p>
+                        <div class="w-full text-right mt-4">
+                            <a class="text-gray-500 uppercase font-bold text-sm" href="#">Read More</a>
+                          </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4" data-aos="fade-up">
+                    <div class="max-w-[370px] mx-auto mb-10">
+                    <div class="rounded overflow-hidden mb-8">
+                        <img
+                            src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-02.jpg"
+                            alt="image"
+                            class="w-full"
+                            />
+                    </div>
+                    <div>
+                        <span
+                            class="
+                            bg-[#FE6034]
+                            rounded
+                            inline-block
+                            text-center
+                            py-1
+                            px-4
+                            text-xs
+                            leading-loose
+                            font-semibold
+                            text-white
+                            mb-5
+                            "
+                            >
+                        Mar 15, 2023
+                        </span>
+                        <h3>
+                            <a
+                                href="javascript:void(0)"
+                                class="
+                                font-semibold
+                                text-xl
+                                sm:text-2xl
+                                lg:text-xl
+                                xl:text-2xl
+                                mb-4
+                                inline-block
+                                text-dark
+                                "
+                                >
+                            How to earn more money as a wellness coach
+                            </a>
+                        </h3>
+                        <p class="text-base text-body-color">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </p>
+                        <div class="w-full text-right mt-4">
+                            <a class="text-gray-500 uppercase font-bold text-sm" href="#">Read More</a>
+                          </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4" data-aos="fade-up">
+                    <div class="max-w-[370px] mx-auto mb-10">
+                    <div class="rounded overflow-hidden mb-8">
+                        <img
+                            src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-03.jpg"
+                            alt="image"
+                            class="w-full"
+                            />
+                    </div>
+                    <div>
+                        <span
+                            class="
+                            bg-[#FE6034]
+                            rounded
+                            inline-block
+                            text-center
+                            py-1
+                            px-4
+                            text-xs
+                            leading-loose
+                            font-semibold
+                            text-white
+                            mb-5
+                            "
+                            >
+                        Jan 05, 2023
+                        </span>
+                        <h3>
+                            <a
+                                href="javascript:void(0)"
+                                class="
+                                font-semibold
+                                text-xl
+                                sm:text-2xl
+                                lg:text-xl
+                                xl:text-2xl
+                                mb-4
+                                inline-block
+                                text-dark
+                                "
+                                >
+                            The no-fuss guide to upselling and cross selling
+                            </a>
+                        </h3>
+                        <p class="text-base text-body-color">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </p>
+                        <div class="w-full text-right mt-4">
+                            <a class="text-gray-500 uppercase font-bold text-sm" href="#">Read More</a>
+                          </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </section>
+
         <section class="relative pb-20 bg-white">
             <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
                 style="height: 80px;">
