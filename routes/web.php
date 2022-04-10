@@ -41,6 +41,18 @@ Route::get('/help', function () {
     return view('pages.users.help');
 })->name('help');
 
+Route::get('/blog-1', function () {
+    return view('pages.blog-1');
+})->name('blog-1');
+
+Route::get('/blog-2', function () {
+    return view('pages.blog-2');
+})->name('blog-2');
+
+Route::get('/blog-3', function () {
+    return view('pages.blog-3');
+})->name('blog-3');
+
 Route::get('/', [WelcomeController::class, 'index'])->name('welcome');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/academic-achievers', [AcademicAchieverController::class, 'index'])->name('academic-achievers');
