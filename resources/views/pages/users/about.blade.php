@@ -18,19 +18,6 @@
     </ol>
     </nav>
 
-{{-- Logo --}}
-<div class="container px-10 py-5 mx-auto flex flex-wrap items-center justify-center">
-    <img class="h-64" src={{ asset('img/course.png') }} alt="logo">
-    <p class="max-w-5xl mt-10 text-center">The Official Student Publication of College of Information Technology
-        (CBSUA-Sipocot) <br>
-        𝗠𝗜𝗦𝗦𝗜𝗢𝗡 <br>
-        To Develop creative and critical thinking among the students of the
-        College of Information Technology by delivering responsible,
-        truthful and reliable campus journalism so as to create an atmosphere of free expression. <br>
-        𝗩𝗜𝗦𝗜𝗢𝗡 <br>
-        A student-centered publication contributes to social change through journalism and information technology.</p>
-        </div>
-
 <!-- Team -->
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
 <div class="text-center pb-12">
@@ -41,38 +28,74 @@
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
     <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
         <div class="mb-8">
-            <img class="object-center object-cover rounded-full h-36 w-36" src="{{asset('img/aeron.jpg')}}" alt="team-1">
+            <img class="object-center rounded-full h-44 w-36" src="{{asset('img/team/Ignas, Mary Faith.jpg')}}" alt="team-1">
         </div>
         <div class="text-center">
-            <p class="text-xl text-gray-700 font-bold mb-2">Aeron Dave Olano</p>
-            <p class="text-base text-gray-400 font-normal">Aerondave.olano@cbsua.edu.ph</p>
+            <p class="text-xl text-gray-700 font-bold mb-2">Ignas, Mary Faith</p>
+            <p class="text-base text-gray-400 font-normal">Chairman</p>
         </div>
     </div>
     <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
         <div class="mb-8">
-            <img class="object-center object-cover rounded-full h-36 w-36" src="{{asset('img/mey.jpeg')}}" alt="team-2">
+            <img class="object-center object-cover rounded-full h-44 w-36" src="{{asset('img/team/Ramos, Rouella.jpg')}}" alt="team-2">
         </div>
         <div class="text-center">
-            <p class="text-xl text-gray-700 font-bold mb-2">Maria May Tarnate</p>
-            <p class="text-base text-gray-400 font-normal">Mariamay.tarnate@cbsua.edu.ph</p>
+            <p class="text-xl text-gray-700 font-bold mb-2">Ramos, Rouella</p>
+            <p class="text-base text-gray-400 font-normal">Assistant Chairman</p>
         </div>
     </div>
     <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
         <div class="mb-8">
-            <img class="object-center object-cover rounded-full h-36 w-36" src="{{asset('img/pim.jpeg')}}" alt="team-3">
+            <img class="object-center rounded-full h-44 w-36" src="{{asset('img/team/De Guzman, Rozette.jpg')}}" alt="team-3">
         </div>
         <div class="text-center">
-            <p class="text-xl text-gray-700 font-bold mb-2">Philip Christian Midem</p>
-            <p class="text-base text-gray-400 font-normal">Philipchristian.midem@cbsua.edu.ph</p>
+            <p class="text-xl text-gray-700 font-bold mb-2">De Guzman, Rozette</p>
+            {{-- <p class="text-base text-gray-400 font-normal">Philipchristian.midem@cbsua.edu.ph</p> --}}
         </div>
     </div>
     <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
         <div class="mb-8">
-            <img class="object-center object-cover rounded-full h-36 w-36" src="{{asset('img/bing.jpg')}}" alt="team-4">
+            <img class="object-center object-cover rounded-full h-44 w-36" src="{{asset('img/team/Duma, Jodan.jpg')}}" alt="team-4">
         </div>
         <div class="text-center">
-            <p class="text-xl text-gray-700 font-bold mb-2">Ma. Rosalea Ansano</p>
-            <p class="text-base text-gray-400 font-normal">Mariarosalea.ansano@cbsua.edu.ph</p>
+            <p class="text-xl text-gray-700 font-bold mb-2">Duma, Jodan</p>
+            {{-- <p class="text-base text-gray-400 font-normal">Mariarosalea.ansano@cbsua.edu.ph</p> --}}
+        </div>
+    </div>
+    <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
+        <div class="mb-8">
+            <img class="object-center object-cover rounded-full h-48 w-36" src="{{asset('img/team/Iligan, Lanie Rus.jpg')}}" alt="team-5">
+        </div>
+        <div class="text-center">
+            <p class="text-xl text-gray-700 font-bold mb-2">Iligan, Lanie Rus</p>
+            {{-- <p class="text-base text-gray-400 font-normal">Mariarosalea.ansano@cbsua.edu.ph</p> --}}
+        </div>
+    </div>
+    <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
+        <div class="mb-8">
+            <img class="object-center rounded-full h-48 w-36" src="{{asset('img/team/Nacion, Norlyn.jpg')}}" alt="team-6">
+        </div>
+        <div class="text-center">
+            <p class="text-xl text-gray-700 font-bold mb-2">Nacion, Norlyn</p>
+            {{-- <p class="text-base text-gray-400 font-normal">Mariarosalea.ansano@cbsua.edu.ph</p> --}}
+        </div>
+    </div>
+    <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
+        <div class="mb-8">
+            <img class="object-center object-cover rounded-full h-48 w-36" src="{{ asset('img/team/Rementizo, Aireen-Yvette.jpg') }}" alt="team-7">
+        </div>
+        <div class="text-center">
+            <p class="text-xl text-gray-700 font-bold mb-2">Rementizo, Aireen-Yvette</p>
+            {{-- <p class="text-base text-gray-400 font-normal">Mariarosalea.ansano@cbsua.edu.ph</p> --}}
+        </div>
+    </div>
+    <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
+        <div class="mb-8">
+            <img class="object-center object-cover rounded-full h-48 w-36" src="{{asset('img/team/Verdan, John Arjay.png')}}" alt="team-8">
+        </div>
+        <div class="text-center">
+            <p class="text-xl text-gray-700 font-bold mb-2">Verdan, John Arjay</p>
+            {{-- <p class="text-base text-gray-400 font-normal">Mariarosalea.ansano@cbsua.edu.ph</p> --}}
         </div>
     </div>
 
