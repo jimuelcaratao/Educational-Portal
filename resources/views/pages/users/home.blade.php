@@ -81,11 +81,11 @@
                             <!-- Settings Dropdown -->
                         <div>
                         @auth
-                        <div class="hidden sm:flex sm:items-center sm:ml-6">
+                        <div class="hidden sm:flex sm:items-center sm:ml-6 z-[99]">
                             <x-dropdown align="right" width="48">
                                 <x-slot name="trigger">
                                     <button
-                                        class="flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
+                                        class="flex items-center text-sm font-medium text-white hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
                                         <div>{{ Auth::user()->name }}</div>
 
                                         <div class="ml-1">
@@ -249,7 +249,7 @@
                         <p class="font-bold text-sm uppercase">E-Portal</p>
                         <p class="text-3xl font-bold">Thesis</p>
                         <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
-                        <a href="{{ route('login') }}"
+                        <a href="{{ route('thesis') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access
                             </a>
                     </div>
