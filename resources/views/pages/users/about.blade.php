@@ -19,87 +19,127 @@
     </nav>
 
 <!-- Team -->
-<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
-<div class="text-center pb-12">
-    <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-gray-900">
-        Check our awesome team members
-    </h1>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
-    <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-        <div class="mb-8">
-            <img class="object-center rounded-full h-44 w-36" src="{{asset('img/team/Ignas, Mary Faith.jpg')}}" alt="team-1">
-        </div>
-        <div class="text-center">
-            <p class="text-xl text-gray-700 font-bold mb-2">Ignas, Mary Faith</p>
-            <p class="text-base text-gray-400 font-normal">Chairman</p>
-        </div>
-    </div>
-    <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-        <div class="mb-8">
-            <img class="object-center object-cover rounded-full h-44 w-36" src="{{asset('img/team/Ramos, Rouella.jpg')}}" alt="team-2">
-        </div>
-        <div class="text-center">
-            <p class="text-xl text-gray-700 font-bold mb-2">Ramos, Rouella</p>
-            <p class="text-base text-gray-400 font-normal">Assistant Chairman</p>
-        </div>
-    </div>
-    <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-        <div class="mb-8">
-            <img class="object-center rounded-full h-44 w-36" src="{{asset('img/team/De Guzman, Rozette.jpg')}}" alt="team-3">
-        </div>
-        <div class="text-center">
-            <p class="text-xl text-gray-700 font-bold mb-2">De Guzman, Rozette</p>
-            {{-- <p class="text-base text-gray-400 font-normal">Philipchristian.midem@cbsua.edu.ph</p> --}}
-        </div>
-    </div>
-    <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-        <div class="mb-8">
-            <img class="object-center object-cover rounded-full h-44 w-36" src="{{asset('img/team/Duma, Jodan.jpg')}}" alt="team-4">
-        </div>
-        <div class="text-center">
-            <p class="text-xl text-gray-700 font-bold mb-2">Duma, Jodan</p>
-            {{-- <p class="text-base text-gray-400 font-normal">Mariarosalea.ansano@cbsua.edu.ph</p> --}}
-        </div>
-    </div>
-    <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-        <div class="mb-8">
-            <img class="object-center object-cover rounded-full h-48 w-36" src="{{asset('img/team/Iligan, Lanie Rus.jpg')}}" alt="team-5">
-        </div>
-        <div class="text-center">
-            <p class="text-xl text-gray-700 font-bold mb-2">Iligan, Lanie Rus</p>
-            {{-- <p class="text-base text-gray-400 font-normal">Mariarosalea.ansano@cbsua.edu.ph</p> --}}
-        </div>
-    </div>
-    <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-        <div class="mb-8">
-            <img class="object-center rounded-full h-48 w-36" src="{{asset('img/team/Nacion, Norlyn.jpg')}}" alt="team-6">
-        </div>
-        <div class="text-center">
-            <p class="text-xl text-gray-700 font-bold mb-2">Nacion, Norlyn</p>
-            {{-- <p class="text-base text-gray-400 font-normal">Mariarosalea.ansano@cbsua.edu.ph</p> --}}
-        </div>
-    </div>
-    <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-        <div class="mb-8">
-            <img class="object-center object-cover rounded-full h-48 w-36" src="{{ asset('img/team/Rementizo, Aireen-Yvette.jpg') }}" alt="team-7">
-        </div>
-        <div class="text-center">
-            <p class="text-xl text-gray-700 font-bold mb-2">Rementizo, Aireen-Yvette</p>
-            {{-- <p class="text-base text-gray-400 font-normal">Mariarosalea.ansano@cbsua.edu.ph</p> --}}
-        </div>
-    </div>
-    <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-        <div class="mb-8">
-            <img class="object-center object-cover rounded-full h-48 w-36" src="{{asset('img/team/Verdan, John Arjay.png')}}" alt="team-8">
-        </div>
-        <div class="text-center">
-            <p class="text-xl text-gray-700 font-bold mb-2">Verdan, John Arjay</p>
-            {{-- <p class="text-base text-gray-400 font-normal">Mariarosalea.ansano@cbsua.edu.ph</p> --}}
-        </div>
-    </div>
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css">
 
-</div>
+<!-- Page Container -->
+<div class="flex items-center justify-center bg-white py-24">
+    <div class="flex flex-col">
+        <div class="flex flex-col mt-8">
+            <!-- Meet the Team -->
+            <div class="container max-w-7xl px-4">
+                <!-- Section Header -->
+                <div class="flex flex-wrap justify-center text-center mb-24">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <!-- Header -->
+                        <h1 class="text-gray-900 text-4xl font-bold mb-4">
+                            Meet the Team
+                    </div>
+                </div>
+
+                <!-- Team Members -->
+                <div class="flex flex-wrap">
+                    <!-- Member #1 -->
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <!-- Avatar -->
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src="img/team/DE GUZMAN, ROZETTE V.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Member #2 -->
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <!-- Avatar -->
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src="img/team/DUMA, JODAN A.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Member #3 -->
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <!-- Avatar -->
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Member #4 -->
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <!-- Avatar -->
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src="img/team/ILIGAN, LANIE RUS B.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Member #5 -->
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <!-- Avatar -->
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src="img/team/NACION, NORLYN A.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Member #6 -->
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <!-- Avatar -->
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src="img/team/RAMOS, ROUELLA N.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Member #7 -->
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <!-- Avatar -->
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src="img/team/REMENTIZO, AIREEN YVETTE.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Member #8 -->
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <!-- Avatar -->
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src="img/team/TANIEGRA, CLAUDINE R.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Member #9 -->
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <!-- Avatar -->
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src="img/team/VERDAN, JOHN ARJAY P.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 </x-guest-layout>
