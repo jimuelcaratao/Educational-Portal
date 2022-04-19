@@ -53,7 +53,7 @@
                 <div class="header-wrapper flex items-center justify-between">
 
                     <div class="header-logo mr-20">
-                        <a href="{{ route('home') }}" >
+                        <a href="{{ route('welcome') }}" >
                             <img class="w-16 md:w-28" src="img/eportal.png" alt="logo">
                         </a>
                     </div>

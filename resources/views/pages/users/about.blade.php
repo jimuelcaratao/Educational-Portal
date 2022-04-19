@@ -66,7 +66,7 @@
                             <!-- Avatar -->
                             <a href="#" class="mx-auto">
                                 <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                    src="">
+                                    src="img/team/IGNAS, MARY FAITH P..png">
                             </a>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                             <!-- Avatar -->
                             <a href="#" class="mx-auto">
                                 <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                    src="img/team/REMENTIZO, AIREEN YVETTE.png">
+                                    src="img/team/REMENTIZO, AIREEN YVETTE P..png">
                             </a>
                         </div>
                     </div>
