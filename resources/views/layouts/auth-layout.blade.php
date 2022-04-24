@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    @include('sweetalert::alert')
     <div class="">
         {{ $slot }}
     </div>

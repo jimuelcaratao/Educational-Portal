@@ -44,4 +44,22 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function scopeNameFilter($q)
+    {
+        if (!empty(request()->search)) {
+            $q->Where('name', 'LIKE', '%' .  request()->search  .  '%')
+                ->OrWhere('email', 'LIKE', '%' .  request()->search  .  '%');
+        }
+
+        return $q;
+    }
+
+    public function scopeRoleFilter($q)
+    {
+        if (request()->search_col != null) {
+            $q->Where('is_admin', 'LIKE', '%' .  request()->search_col  .  '%');
+        }
+        return $q;
+    }
 }
