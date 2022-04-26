@@ -194,7 +194,7 @@
                             mb-5
                             "
                             >
-                        Dec 22, 2023
+                        Feb 15, 2022
                         </span>
                         <h3>
                             <a
@@ -208,17 +208,39 @@
                                 mb-4
                                 inline-block
                                 text-dark
+                                uppercase
                                 "
                                 >
-                            Meet AutoManage, the best AI management tools
+                            PASOA EVENTS
                             </a>
                         </h3>
-                        <p class="text-base text-body-color">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.
+                        <h3  href="javascript:void(0)"
+                        class="
+                        font-semibold
+                        text-xl
+                        sm:text-2xl
+                        lg:text-xl
+                        xl:text-lg
+                        mb-4
+                        inline-block
+                        text-dark
+                        ">
+                                INTERACTIVE MANIPULATIVE SKILLS,
+                                SUPPORTING EACH STUDENTS TO BE
+                                CONFIDENT AND PROUD OF THEIR OWN
+                                TALENT
+                        </h3>
+                        <p class="text-base text-body-color text-justify">
+                            The Philippine Association of Office Administration (PASOA ) yearly
+                            conducts Manipulative Skills competition to display students’ talent when
+                            it comes to dancing, singing, acting and also skills like speed typing and
+                            shorthand writing. It is one of PASOA's most anticipated events, as
+                            every student wishes to express their passion. The event of a pandemic limits other extra-curricular activities of school but it does not prevent this event from taking place, the interactive manipulative skills held on
+                            February 15, 2022 was done virtually..
+
                         </p>
                         <div class="w-full text-right mt-4">
-                            <a class="text-gray-500 uppercase font-bold text-sm" href="#">Read More</a>
+                            <a class="text-gray-500 uppercase font-bold text-sm" href="{{ route('blog-1') }}">Read More</a>
                           </div>
                     </div>
                     </div>
@@ -272,7 +294,7 @@
                             typesetting industry.
                         </p>
                         <div class="w-full text-right mt-4">
-                            <a class="text-gray-500 uppercase font-bold text-sm" href="#">Read More</a>
+                            <a class="text-gray-500 uppercase font-bold text-sm" href="{{ route('blog-2') }}">Read More</a>
                           </div>
                     </div>
                     </div>
@@ -326,7 +348,7 @@
                             typesetting industry.
                         </p>
                         <div class="w-full text-right mt-4">
-                            <a class="text-gray-500 uppercase font-bold text-sm" href="#">Read More</a>
+                            <a class="text-gray-500 uppercase font-bold text-sm" href="{{ route('blog-3') }}">Read More</a>
                           </div>
                     </div>
                     </div>

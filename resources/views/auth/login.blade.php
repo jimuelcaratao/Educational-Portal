@@ -30,8 +30,8 @@
                 <!-- Email Address -->
                 <div class="relative">
                     <label class="text-sm font-bold text-white tracking-wide" for="email">Email</label>
-                    <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')"
-                        required autofocus />
+                    <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required
+                        autofocus />
                 </div>
 
                 <!-- Password -->
@@ -53,8 +53,7 @@
                     </div>
                     <div class="text-sm">
                         @if (Route::has('password.request'))
-                            <a href="{{ route('password.request') }}"
-                                class="font-medium text-indigo-500 hover:text-indigo-500">
+                            <a href="{{ route('password.request') }}" class=" text-white hover:text-[#FE6034]">
                                 {{ __('Forgot your password?') }}
                             </a>
                         @endif
@@ -69,18 +68,17 @@
 
                 <div>
                     <button type="submit"
-                        class="w-full flex justify-center bg-indigo-500 text-gray-100 p-4  rounded-full tracking-wide
-                            font-semibold  focus:outline-none focus:shadow-outline hover:bg-indigo-600 shadow-lg cursor-pointer transition ease-in duration-300">
+                        class="w-full flex justify-center bg-[#FE6034] text-gray-100 p-4  rounded-full tracking-wide
+                            font-semibold  focus:outline-none focus:shadow-outline hover:bg-[#fa4917] shadow-lg cursor-pointer transition ease-in duration-300">
                         {{ __('Log in') }}
                     </button>
                 </div>
-
-                <p class="flex flex-col items-center justify-center mt-10 text-center text-md text-white">
+                {{-- <p class="flex flex-col items-center justify-center mt-10 text-center text-md text-white">
                     <span>Don't have an account?</span>
                     <a href="{{ route('register') }}"
-                        class="text-indigo-500 hover:text-indigo-500no-underline hover:underline cursor-pointer transition ease-in duration-300">Sign
+                        class="text-white hover:text-indigo-500no-underline hover:underline cursor-pointer transition ease-in duration-300">Sign
                         up</a>
-                </p>
+                </p> --}}
             </form>
         </div>
     </div>
