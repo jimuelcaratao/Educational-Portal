@@ -41,7 +41,7 @@ class DashboardController extends Controller
             ->count();
 
 
-        $popular_items = Thesis::take(6)->where('thesis_status', 'Active')->orderBy('viewers', 'DESC')->get();;
+        $popular_items = Thesis::take(6)->where('thesis_status', 'Active')->orderBy('viewers', 'DESC')->get();
 
 
         $page_visits = Visit::select([
