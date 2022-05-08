@@ -173,7 +173,7 @@
                     <div class="max-w-[370px] mx-auto mb-10">
                     <div class="rounded overflow-hidden mb-8">
                         <img
-                            src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-01.jpg"
+                            src="img/blog/blog-1.jpg"
                             alt="image"
                             class="w-full"
                             />
@@ -249,7 +249,7 @@
                     <div class="max-w-[370px] mx-auto mb-10">
                     <div class="rounded overflow-hidden mb-8">
                         <img
-                            src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-02.jpg"
+                            src="img/blog/blog-2.jpg"
                             alt="image"
                             class="w-full"
                             />
