@@ -44,96 +44,102 @@
             color: #2b6cb0;
             /*Set to match the Tailwind colour you want the active one to be */
         }
+
     </style>
 
     <div class="carousel relative shadow-2xl bg-white">
 
-    <div class="header absolute z-[99] w-full" x-data="{ isOpen : false}">
-        <div class="container px-20 sm:px-8 lg:px-16 xl:px-8 mx-auto">
+        <div class="header absolute z-[99] w-full" x-data="{ isOpen: false }">
+            <div class="container px-20 sm:px-8 lg:px-16 xl:px-8 mx-auto">
                 <div class="header-wrapper flex items-center justify-between">
 
                     <div class="header-logo mr-20">
                         <a href="{{ route('welcome') }}" >
+
                             <img class="w-16 md:w-28" src="img/eportal.png" alt="logo">
                         </a>
                     </div>
 
                     <!-- mobile toggle -->
-                    <div class="toggle md:hidden">
+                    {{-- <div class="toggle md:hidden">
                         <button @click=" isOpen = true" @keydown.escape=" isOpen = false">
-                            <svg
-                                class="h-6 w-6 fill-current text-white"
-                                fill="none" stroke-linecap="round"
-                                stroke-linejoin="round" stroke-width="2"
-                                viewBox="0 0 24 24" stroke="currentColor">
+                            <svg class="h-6 w-6 fill-current text-white" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
                                 <path d="M4 6h16M4 12h16M4 18h16"></path>
                             </svg>
                         </button>
-                    </div>
+                    </div> --}}
 
                     <!-- Login button -->
                     <nav class="navbar hidden md:block">
                         <ul class="flex space-x-8 text-sm font-semibold">
                             @guest
-                            <li><a href="{{ route('login') }}" class="cta bg-[#FE6034] hover:bg-orange-600 px-4 py-2 rounded text-white font-normal">LOGIN</a></li>
+                                <li><a href="{{ route('login') }}"
+                                        class="cta bg-[#FE6034] hover:bg-orange-600 px-4 py-2 rounded text-white font-normal">LOGIN</a>
+                                </li>
                             @endguest
 
                             <!-- Settings Dropdown -->
-                        <div>
-                        @auth
-                        <div class="hidden sm:flex sm:items-center sm:ml-6 z-[99]">
-                            <x-dropdown align="right" width="48">
-                                <x-slot name="trigger">
-                                    <button
-                                        class="flex items-center text-sm font-medium text-white hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
-                                        <div>{{ Auth::user()->name }}</div>
+                            @auth
 
-                                        <div class="ml-1">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 20 20">
-                                                <path fill-rule="evenodd"
-                                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                        </div>
-                                    </button>
-                                </x-slot>
+                                <div>
+                                    <div class="hidden sm:flex sm:items-center sm:ml-6 z-[99]">
+                                        <x-dropdown align="right" width="48">
+                                            <x-slot name="trigger">
+                                                <button
+                                                    class="flex items-center text-sm font-medium text-white hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
+                                                    <div>{{ Auth::user()->name }}</div>
 
-                                <x-slot name="content">
-                                    <!-- Authentication -->
-                                    <form method="POST" action="{{ route('logout') }}">
-                                        @csrf
+                                                    <div class="ml-1">
+                                                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </div>
+                                                </button>
+                                            </x-slot>
 
-                                        <x-dropdown-link :href="route('logout')" onclick="event.preventDefault();
-                                                            this.closest('form').submit();">
-                                            {{ __('Log Out') }}
-                                        </x-dropdown-link>
-                                    </form>
-                                </x-slot>
-                            </x-dropdown>
-                        </div>
-                        @endauth
-                        </div>
+                                            <x-slot name="content">
+                                                <!-- Authentication -->
+                                                <form method="POST" action="{{ route('logout') }}">
+                                                    @csrf
+
+                                                    <x-dropdown-link :href="route('logout')" onclick="event.preventDefault();
+                                                                                    this.closest('form').submit();">
+                                                        {{ __('Log Out') }}
+                                                    </x-dropdown-link>
+                                                </form>
+                                            </x-slot>
+                                        </x-dropdown>
+
+                                    </div>
+                                </div>
+                            @endauth
+
                         </ul>
                     </nav>
 
                 </div>
-        </div>
+            </div>
 
-    </div><!-- end header -->
+        </div><!-- end header -->
 
 
         <div class="carousel-inner relative overflow-hidden w-full">
             <!--Slide 1-->
-            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+                checked="checked">
             <div class="carousel-item absolute opacity-0" style="height:100vh;">
                 <div class="bg-cover bg-center block h-full w-full px-32 py-72 text-white object-fill"
                     style="background-image: url(https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80)">
                     <div class="md:w-1/2 relative">
                         <p class="font-bold text-sm uppercase">E-Portal</p>
-                        <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Professors Profile</p>
-                        {{-- <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p> --}}
-                        <a href="{{ route('professors') }}" class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access</a>
+                        <p class="text-3xl font-bold">Professors Profile</p>
+                        <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                        <a href="{{ route('professors') }}"
+                            class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access</a>
                     </div>
                 </div>
             </div>
@@ -149,8 +155,11 @@
                     style="background-image: url(img/homepage/CAREER-OPPORTUNITIES.png)">
                     <div class="md:w-1/2 relative">
                         <p class="font-bold text-sm uppercase">E-Portal</p>
-                        <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Career Opportunities</p>
-                        <a href="{{ route('careers') }}" class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access</a>
+
+                        <p class="text-3xl font-bold">Career Opportunities</p>
+                        <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                        <a href="{{ route('careers') }}"
+                            class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access</a>
                     </div>
                 </div>
             </div>
@@ -169,7 +178,7 @@
                         <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Organization</p>
                         <a href="{{ route('organizations') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access
-                            </a>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -188,7 +197,7 @@
                         <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Tutorials</p>
                         <a href="{{ route('tutorials') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access
-                            </a>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -207,7 +216,7 @@
                         <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">History</p>
                         <a href="{{ route('history') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access
-                            </a>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -226,7 +235,7 @@
                         <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Academic Achievers</p>
                         <a href="{{ route('academic-achievers') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access
-                            </a>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -245,7 +254,7 @@
                         <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Thesis</p>
                         <a href="{{ route('thesis') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access
-                            </a>
+                        </a>
                     </div>
                 </div>
             </div>

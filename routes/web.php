@@ -1,6 +1,9 @@
 <?php
 
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\PaperController;
+use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\WritePaperController;
 use App\Http\Controllers\User\AcademicAchieverController;
 use App\Http\Controllers\User\CareerController;
 use App\Http\Controllers\User\HistoryController;
@@ -60,14 +63,36 @@ Route::get('/careers', [CareerController::class, 'index'])->name('careers');
 Route::get('/history', [HistoryController::class, 'index'])->name('history');
 Route::get('/organizations', [OrganizationController::class, 'index'])->name('organizations');
 Route::get('/professors', [ProfessorsController::class, 'index'])->name('professors');
-Route::get('/thesis', [ThesisController::class, 'index'])->name('thesis');
 Route::get('/tutorials', [TutorialController::class, 'index'])->name('tutorials');
 
+
+// Auth Users
+Route::middleware(['auth'])->group(function () {
+
+    Route::get('/thesis', [ThesisController::class, 'index'])->name('thesis');
+    Route::get('/thesis/{slug}', [PaperController::class, 'post'])->name('single_thesis');
+});
 
 // Admin Users
 Route::middleware(['auth',  'is_admin'])->group(function () {
 
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+    // Thesis
+    Route::get('/admin/thesis', [PaperController::class, 'index'])->name('admin.thesis');
+    Route::get('/admin/thesis/edit/{slug}', [PaperController::class, 'edit'])->name('thesis.edit');
+    Route::put('/admin/thesis/update/{thesis_id}', [PaperController::class, 'update'])->name('thesis.update');
+    Route::delete('/admin/thesis/{thesis_id}', [PaperController::class, 'destroy'])->name('thesis.destroy');
+
+    // Thesis
+    Route::get('/admin/thesis/write', [WritePaperController::class, 'index'])->name('thesis.write');
+    Route::post('/admin/thesis/write', [WritePaperController::class, 'store'])->name('thesis.write.store');
+
+    // Users
+    Route::get('/users', [UserController::class, 'index'])->name('users');
+    Route::post('/users', [UserController::class, 'store'])->name('users.store');
+    Route::put('/users/update', [UserController::class, 'update'])->name('users.update');
+    Route::post('/users/ban', [UserController::class, 'ban'])->name('user.ban');
 });
 
 

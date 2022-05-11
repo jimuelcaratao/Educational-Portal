@@ -36,8 +36,8 @@
                 <!-- Email Address -->
                 <div class="mt-4 relative">
                     <label class="text-sm font-bold text-white tracking-wide" for="email">Email</label>
-                    <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')"
-                        required autofocus />
+                    <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required
+                        autofocus />
                 </div>
 
                 <!-- Password -->
@@ -61,13 +61,13 @@
                 <!-- Validation Errors -->
                 <x-auth-validation-errors class="mb-4" :errors="$errors" />
 
-                <div>
+                {{-- <div>
                     <button type="submit"
                         class="w-full flex justify-center bg-indigo-500 text-gray-100 p-4  rounded-full tracking-wide
                             font-semibold  focus:outline-none focus:shadow-outline hover:bg-indigo-600 shadow-lg cursor-pointer transition ease-in duration-300">
                         {{ __('Register') }}
                     </button>
-                </div>
+                </div> --}}
 
                 <p class="flex flex-col items-center justify-center mt-10 text-center text-md text-white">
                     <span>Already Register?</span>
