@@ -107,4 +107,31 @@
         <!-- main ends here -->
 
       </div>
+
+      <footer class="relative bg-[#292A42] pt-8 pb-6">
+        <div class="max-w-2xl mx-auto py-10">
+
+            <div class="flex justify-center items-center m-auto py-4">
+                <div class="flex justify-between gap-6">
+                    <img class="w-20" src="img/ucc.png" alt="ucc-logo">
+                    <img class="w-20" src="img/course.png" alt="ucc-logo">
+                </div>
+            </div>
+
+            <div class="text-center">
+                <h3 class="text-3xl font-semibold leading-normal mb-3 text-white"> Ready to get started at E-Portal?
+                </h3>
+                <p class="text-white"> Stay updated. All day, every day. </p>
+            </div>
+            <hr class="border-white mt-16" />
+            <div class="mt-16 flex flex-col text-center text-sm text-white">
+                <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; Educational Portal, <span id="date"></span>. </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const d = new Date();
+        document.getElementById("date").innerHTML = d.getFullYear();
+    </script>
     </x-guest-layout>

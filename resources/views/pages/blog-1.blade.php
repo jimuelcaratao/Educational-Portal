@@ -23,88 +23,68 @@
       <div class="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style="height: 24em;">
         <div class="absolute left-0 bottom-0 w-full h-full z-10"
           style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));"></div>
-        <img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <img src="img/blog/blog-1.jpg" class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
         <div class="p-4 absolute bottom-0 left-0 z-20">
-          <a href="#"
-            class="px-4 py-1 bg-black text-gray-200 inline-flex items-center justify-center mb-2">Nutrition</a>
-          <h2 class="text-4xl font-semibold text-gray-100 leading-tight">
-            Pellentesque a consectetur velit, ac molestie ipsum. Donec sodales, massa et auctor.
-          </h2>
-          <div class="flex mt-3">
-            <img src="https://randomuser.me/api/portraits/men/97.jpg"
-              class="h-10 w-10 rounded-full mr-2 object-cover" />
-            <div>
-              <p class="font-semibold text-gray-200 text-sm"> Mike Sullivan </p>
-              <p class="font-semibold text-gray-400 text-xs"> 14 Aug </p>
-            </div>
-          </div>
         </div>
       </div>
 
       <div class="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
-        <p class="pb-6">Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is
-          justice. Six draw
-          you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages
-          resolution son indulgence. Part sure on no long life am at ever. In songs above he as drawn to. Gay was
-          outlived peculiar rendered led six.</p>
+        <h2 class="text-4xl font-semibold pb-12 leading-tight">
+            INTERACTIVE MANIPULATIVE SKILLS, SUPPORTING EACH STUDENTS TO BE
+            CONFIDENT AND PROUD OF THEIR OWN TALENT
+          </h2>
+        <p class="pb-6">“One of the biggest problems in the world is that, so many doesn’t believe they have great talents and can change their life” – Hanna Anerod. At the present generation, many young people are fully convinced they were born with no talent, having this mentality limits themselves to achieve great things in life. PASOA organization believes that people only need encouragement to push them out of their comfort zone and explore more of themselves in order to discover their own capabilities.</p>
 
-        <p class="pb-6">Difficulty on insensible reasonable in. From as went he they. Preference themselves me as
-          thoroughly
-          partiality considered on in estimating. Middletons acceptance discovered projecting so is so or. In or
-          attachment inquietude remarkably comparison at an. Is surrounded prosperous stimulated am me discretion
-          expression. But truth being state can she china widow. Occasional preference fat remarkably now projecting
-          uncommonly dissimilar. Sentiments projection particular companions interested do at my delightful. Listening
-          newspaper in advantage frankness to concluded unwilling.</p>
+        <p class="pb-6">The Philippine Association of Office Administration (PASOA) yearly conducts Manipulative Skills competition to display student’s talent when it comes to dancing, singing, acting, and also skills like speed typing and shorthand writing. It is one of PASOA's most anticipated events, as every student wishes to express their passion. The event of pandemic limits other extra-curricular activities of school but it does not prevent this event from taking place. </p>
 
-        <p class="pb-6">Adieus except say barton put feebly favour him. Entreaties unpleasant sufficient few pianoforte
-          discovered
-          uncommonly ask. Morning cousins amongst in mr weather do neither. Warmth object matter course active law
-          spring six. Pursuit showing tedious unknown winding see had man add. And park eyes too more him. Simple excuse
-          active had son wholly coming number add. Though all excuse ladies rather regard assure yet. If feelings so
-          prospect no as raptures quitting.</p>
+        <p class="pb-6">The interactive manipulative skills held on February 15, 2022 was done virtually. It was a successful event to be held online for the first time. The event includes Mr. and Ms. Executives, spoken poetry, singing contest, dance contest, mobile legend tournament, poster and slogan making, and chess competition. This event also allows students to compete in major BSOAD subjects such as stenography dictation and quiz bee, speed typing, office procedures quiz bee, accounting quiz bee, computer quiz bee, and web design making contest.</p>
 
         <div class="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
-          Sportsman do offending supported extremity breakfast by listening. Decisively advantages nor
-          expression
-          unpleasing she led met. Estate was tended ten boy nearer seemed. As so seeing latter he should thirty whence.
-          Steepest speaking up attended it as. Made neat an on be gave show snug tore.
+            Each section has a representative for each contest making this event more of a teamwork rather than an individual competition. Students who did not join the competition still show support for their classmates, and make a conscious effort to win their candidate.
         </div>
 
-        <p class="pb-6">Exquisite cordially mr happiness of neglected distrusts. Boisterous impossible unaffected he me
-          everything.
-          Is fine loud deal an rent open give. Find upon and sent spot song son eyes. Do endeavor he differed carriage
-          is learning my graceful. Feel plan know is he like on pure. See burst found sir met think hopes are marry
-          among. Delightful remarkably new assistance saw literature mrs favourable.</p>
+        <div class="mb-4 md:mb-6 w-full max-w-screen-md mx-auto relative" style="height: 56em;">
+            <img src="img/blog/blog-1.jpg" class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+            <div class="p-4 absolute bottom-0 left-0 z-20">
+            </div>
+          </div>
 
-        <h2 class="text-2xl text-gray-800 font-semibold mb-4 mt-4">Uneasy barton seeing remark happen his has</h2>
+        {{-- <h2 class="text-2xl text-gray-800 font-semibold mb-4 mt-4">Uneasy barton seeing remark happen his has</h2> --}}
 
-        <p class="pb-6">Guest it he tears aware as. Make my no cold of need. He been past in by my hard. Warmly thrown
-          oh he common
-          future. Otherwise concealed favourite frankness on be at dashwoods defective at. Sympathize interested
-          simplicity at do projecting increasing terminated. As edward settle limits at in.</p>
+        <p class="pb-6">Mr. and Ms. Executive competition is the most anticipated competition in this event. Students were able to express their love of fashion, dressing in executive and casual outfits and making photo shoots displaying their fashion and showcasing their talents are students’ most awaited moments. Spoken word poetry allows students to express their voices and writing skills. Singing and Dance Contests recognized students who have a talent in singing and dancing that helps them to boost their confidence. Poster and Slogan Making Contests help students to show their creativity in their crafts. Chess Competition helps to develop their logic, critical thinking, and problem-solving skills. Mobile Legend tournament activates leadership and teamwork of the contestants although this one is a mobile game, it can still be utilized to teach young people how to work in a team. </p>
 
-        <p class="pb-6">Dashwood contempt on mr unlocked resolved provided of of. Stanhill wondered it it welcomed oh.
-          Hundred no
-          prudent he however smiling at an offence. If earnestly extremity he he propriety something admitting convinced
-          ye. Pleasant in to although as if differed horrible. Mirth his quick its set front enjoy hoped had there. Who
-          connection imprudence middletons too but increasing celebrated principles joy. Herself too improve gay winding
-          ask expense are compact. New all paid few hard pure she.</p>
-
-        <p class="pb-6">Breakfast agreeable incommode departure it an. By ignorant at on wondered relation. Enough at
-          tastes really
-          so cousin am of. Extensive therefore supported by extremity of contented. Is pursuit compact demesne invited
-          elderly be. View him she roof tell her case has sigh. Moreover is possible he admitted sociable concerns. By
-          in cold no less been sent hard hill.</p>
-
-        <p class="pb-6">Detract yet delight written farther his general. If in so bred at dare rose lose good. Feel and
-          make two real
-          miss use easy. Celebrated delightful an especially increasing instrument am. Indulgence contrasted sufficient
-          to unpleasant in in insensible favourable. Latter remark hunted enough vulgar say man. Sitting hearted on it
-          without me.</p>
+        <p class="pb-6">Accounting, Stenography, Office procedure, and Computer quiz bee allow students to recall their previous lesson and exhibit their knowledge on the subject. Students who will rank 1st, 2nd, and 3rd place in every competition will be awarded with certificates and medals. This type of event is extremely beneficial for the students for it enhances their talent and skills.</p>
 
       </div>
     </main>
     <!-- main ends here -->
 
   </div>
+
+  <footer class="relative bg-[#292A42] pt-8 pb-6">
+    <div class="max-w-2xl mx-auto py-10">
+
+        <div class="flex justify-center items-center m-auto py-4">
+            <div class="flex justify-between gap-6">
+                <img class="w-20" src="img/ucc.png" alt="ucc-logo">
+                <img class="w-20" src="img/course.png" alt="ucc-logo">
+            </div>
+        </div>
+
+        <div class="text-center">
+            <h3 class="text-3xl font-semibold leading-normal mb-3 text-white"> Ready to get started at E-Portal?
+            </h3>
+            <p class="text-white"> Stay updated. All day, every day. </p>
+        </div>
+        <hr class="border-white mt-16" />
+        <div class="mt-16 flex flex-col text-center text-sm text-white">
+            <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; Educational Portal, <span id="date"></span>. </p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const d = new Date();
+    document.getElementById("date").innerHTML = d.getFullYear();
+</script>
 </x-guest-layout>

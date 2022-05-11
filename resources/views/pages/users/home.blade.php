@@ -54,7 +54,8 @@
                 <div class="header-wrapper flex items-center justify-between">
 
                     <div class="header-logo mr-20">
-                        <a href="{{ route('home') }}">
+                        <a href="{{ route('welcome') }}" >
+
                             <img class="w-16 md:w-28" src="img/eportal.png" alt="logo">
                         </a>
                     </div>
@@ -151,9 +152,10 @@
             <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
             <div class="carousel-item absolute opacity-0" style="height:100vh;">
                 <div class="bg-cover bg-center block h-full w-full px-32 py-72 text-white object-fill"
-                    style="background-image: url(https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80)">
+                    style="background-image: url(img/homepage/CAREER-OPPORTUNITIES.png)">
                     <div class="md:w-1/2 relative">
                         <p class="font-bold text-sm uppercase">E-Portal</p>
+
                         <p class="text-3xl font-bold">Career Opportunities</p>
                         <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
                         <a href="{{ route('careers') }}"
@@ -170,11 +172,10 @@
             <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
             <div class="carousel-item absolute opacity-0" style="height:100vh;">
                 <div class="bg-cover bg-center block h-full w-full px-32 py-72 text-white object-fill"
-                    style="background-image: url(https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80)">
+                    style="background-image: url(img/homepage/ORGANIZATION.png)">
                     <div class="md:w-1/2 relative">
                         <p class="font-bold text-sm uppercase">E-Portal</p>
-                        <p class="text-3xl font-bold">Organization</p>
-                        <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                        <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Organization</p>
                         <a href="{{ route('organizations') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access
                         </a>
@@ -193,8 +194,7 @@
                     style="background-image: url(https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80)">
                     <div class="md:w-1/2 relative">
                         <p class="font-bold text-sm uppercase">E-Portal</p>
-                        <p class="text-3xl font-bold">Tutorials</p>
-                        <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                        <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Tutorials</p>
                         <a href="{{ route('tutorials') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access
                         </a>
@@ -213,8 +213,7 @@
                     style="background-image: url(https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80)">
                     <div class="md:w-1/2 relative">
                         <p class="font-bold text-sm uppercase">E-Portal</p>
-                        <p class="text-3xl font-bold">History</p>
-                        <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                        <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">History</p>
                         <a href="{{ route('history') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access
                         </a>
@@ -230,11 +229,10 @@
             <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
             <div class="carousel-item absolute opacity-0" style="height:100vh;">
                 <div class="bg-cover bg-center block h-full w-full px-32 py-72 text-white object-fill"
-                    style="background-image: url(https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80)">
+                    style="background-image: url(img/homepage/ACHIEVERS.png)">
                     <div class="md:w-1/2 relative">
                         <p class="font-bold text-sm uppercase">E-Portal</p>
-                        <p class="text-3xl font-bold">Academic Achievers</p>
-                        <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                        <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Academic Achievers</p>
                         <a href="{{ route('academic-achievers') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access
                         </a>
@@ -250,11 +248,10 @@
             <input class="carousel-open" type="radio" id="carousel-7" name="carousel" aria-hidden="true" hidden="">
             <div class="carousel-item absolute opacity-0" style="height:100vh;">
                 <div class="bg-cover bg-center block h-full w-full px-32 py-72 text-white object-fill"
-                    style="background-image: url(https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80)">
+                    style="background-image: url(img/homepage/THESIS-OUTPUT.png)">
                     <div class="md:w-1/2 relative">
                         <p class="font-bold text-sm uppercase">E-Portal</p>
-                        <p class="text-3xl font-bold">Thesis</p>
-                        <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                        <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Thesis</p>
                         <a href="{{ route('thesis') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access
                         </a>
