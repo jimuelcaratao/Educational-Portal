@@ -133,11 +133,11 @@
                 checked="checked">
             <div class="carousel-item absolute opacity-0" style="height:100vh;">
                 <div class="bg-cover bg-center block h-full w-full px-32 py-72 text-white object-fill"
-                    style="background-image: url(https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80)">
+                    style="background-image: url(img/homepage/PROFESSOR.png)">
                     <div class="md:w-1/2 relative">
                         <p class="font-bold text-sm uppercase">E-Portal</p>
-                        <p class="text-3xl font-bold">Professors Profile</p>
-                        <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                        <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Professors Profile</p>
+                        {{-- <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p> --}}
                         <a href="{{ route('professors') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access</a>
                     </div>
@@ -156,8 +156,8 @@
                     <div class="md:w-1/2 relative">
                         <p class="font-bold text-sm uppercase">E-Portal</p>
 
-                        <p class="text-3xl font-bold">Career Opportunities</p>
-                        <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                        <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Career Opportunities</p>
+                        {{-- <p class="text-2xl mb-10 leading-none">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p> --}}
                         <a href="{{ route('careers') }}"
                             class="bg-[#FE6034] py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Access</a>
                     </div>
