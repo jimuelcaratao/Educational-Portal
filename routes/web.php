@@ -56,6 +56,27 @@ Route::get('/blog-3', function () {
     return view('pages.blog-3');
 })->name('blog-3');
 
+
+Route::get('/org-1', function () {
+    return view('pages.org-1');
+})->name('org-1');
+
+Route::get('/org-2', function () {
+    return view('pages.org-2');
+})->name('org-2');
+
+Route::get('/org-3', function () {
+    return view('pages.org-3');
+})->name('org-3');
+
+Route::get('/org-4', function () {
+    return view('pages.org-4');
+})->name('org-4');
+
+Route::get('/org-5', function () {
+    return view('pages.org-5');
+})->name('org-5');
+
 Route::get('/', [WelcomeController::class, 'index'])->name('welcome');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/academic-achievers', [AcademicAchieverController::class, 'index'])->name('academic-achievers');
