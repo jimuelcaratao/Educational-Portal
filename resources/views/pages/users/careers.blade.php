@@ -33,7 +33,7 @@
                         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
+                                src="img/career/OFFICE-MANAGER.png"
                                 alt="image"
                                 class="w-full"
                                 />
@@ -66,7 +66,7 @@
                         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-02.jpg"
+                                src="img/career/EXECUTIVE-ASSISTANT.png"
                                 alt="image"
                                 class="w-full"
                                 />
@@ -87,7 +87,7 @@
                                         hover:text-primary
                                         "
                                         >
-                                        Personal Assistant
+                                        Executive Assistant
                                     </a>
                                 </h3>
                                 <p class="text-base text-body-color leading-relaxed mb-7 text-justify">
@@ -99,7 +99,7 @@
                         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-03.jpg"
+                                src="img/career/FRONT-OFFICE-EXECUTIVE.png"
                                 alt="image"
                                 class="w-full"
                                 />
@@ -132,7 +132,7 @@
                         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
+                                src="img/career/LEGAL-SECRETARY.png"
                                 alt="image"
                                 class="w-full"
                                 />
@@ -165,7 +165,7 @@
                         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-02.jpg"
+                                src="img/career/MEDICAL-SECRETARY.png"
                                 alt="image"
                                 class="w-full"
                                 />
@@ -198,7 +198,7 @@
                         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-03.jpg"
+                                src="img/career/COURT-STENOGRAPHER.png"
                                 alt="image"
                                 class="w-full"
                                 />
@@ -231,7 +231,7 @@
                         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
+                                src="img/career/FINANCIAL-ANALYST.png"
                                 alt="image"
                                 class="w-full"
                                 />
@@ -264,7 +264,7 @@
                         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-02.jpg"
+                                src="img/career/EVENTS-ORGANIZER.png"
                                 alt="image"
                                 class="w-full"
                                 />
@@ -297,7 +297,7 @@
                         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-03.jpg"
+                                src="img/career/SALES-MANAGER.png"
                                 alt="image"
                                 class="w-full"
                                 />
@@ -330,7 +330,7 @@
                         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
+                                src="img/career/EDUCATOR.png"
                                 alt="image"
                                 class="w-full"
                                 />
@@ -363,7 +363,7 @@
                         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-02.jpg"
+                                src="img/career/WEB DESIGNER.png"
                                 alt="image"
                                 class="w-full"
                                 />
@@ -396,7 +396,7 @@
                         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-03.jpg"
+                                src="img/career/GRAPHIC-ARTIST.png"
                                 alt="image"
                                 class="w-full"
                                 />

@@ -191,7 +191,7 @@
             <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
             <div class="carousel-item absolute opacity-0" style="height:100vh;">
                 <div class="bg-cover bg-center block h-full w-full px-32 py-72 text-white object-fill"
-                    style="background-image: url(https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80)">
+                    style="background-image: url(img/homepage/STENO-TUTORIAL-BACKGROUND.png)">
                     <div class="md:w-1/2 relative">
                         <p class="font-bold text-sm uppercase">E-Portal</p>
                         <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">Tutorials</p>
@@ -210,7 +210,7 @@
             <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
             <div class="carousel-item absolute opacity-0" style="height:100vh;">
                 <div class="bg-cover bg-center block h-full w-full px-32 py-72 text-white object-fill"
-                    style="background-image: url(https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80)">
+                    style="background-image: url(img/homepage/HISTORY-BACKGROUND.png)">
                     <div class="md:w-1/2 relative">
                         <p class="font-bold text-sm uppercase">E-Portal</p>
                         <p class="text-3xl font-bold stroke-black drop-shadow-2xl mb-10">History</p>
