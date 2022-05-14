@@ -54,7 +54,7 @@
                 <div class="header-wrapper flex items-center justify-between">
 
                     <div class="header-logo mr-20">
-                        <a href="{{ route('welcome') }}" >
+                        <a href="{{ route('welcome') }}">
 
                             <img class="w-16 md:w-28" src="img/eportal.png" alt="logo">
                         </a>
@@ -106,8 +106,9 @@
                                                 <form method="POST" action="{{ route('logout') }}">
                                                     @csrf
 
-                                                    <x-dropdown-link :href="route('logout')" onclick="event.preventDefault();
-                                                                                    this.closest('form').submit();">
+                                                    <x-dropdown-link :href="route('logout')"
+                                                        onclick="event.preventDefault();
+                                                                                                        this.closest('form').submit();">
                                                         {{ __('Log Out') }}
                                                     </x-dropdown-link>
                                                 </form>
