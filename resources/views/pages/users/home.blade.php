@@ -82,6 +82,13 @@
                             <!-- Settings Dropdown -->
                             @auth
 
+                                @if (Auth::user()->is_admin == 1)
+                                    <li><a href="{{ route('dashboard') }}"
+                                            class="cta bg-[#FE6034] hover:bg-orange-600 px-4 py-2 rounded text-white font-normal">DASHBOARD</a>
+                                    </li>
+                                @endif
+
+
                                 <div>
                                     <div class="hidden sm:flex sm:items-center sm:ml-6 z-[99]">
                                         <x-dropdown align="right" width="48">
@@ -108,7 +115,7 @@
 
                                                     <x-dropdown-link :href="route('logout')"
                                                         onclick="event.preventDefault();
-                                                                                                        this.closest('form').submit();">
+                                                                                                                    this.closest('form').submit();">
                                                         {{ __('Log Out') }}
                                                     </x-dropdown-link>
                                                 </form>
