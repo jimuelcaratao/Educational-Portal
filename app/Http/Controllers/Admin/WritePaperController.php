@@ -24,7 +24,7 @@ class WritePaperController extends Controller
         // dd($request->all());
         $validator = Validator::make($request->all(), [
             'title' => 'required|unique:thesis',
-            'body' => 'required',
+            // 'body' => 'required',
             'default_photo' => 'required',
             'author_name' => 'required',
             'section' => 'required',
