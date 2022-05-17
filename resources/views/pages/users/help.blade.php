@@ -41,7 +41,7 @@
                         </svg>
                     </a>
                     <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!
+                        Educational portal is the result of hard work of third year students, section a, group 2 of Bachelor of Science in Office Administration in their study entitled “Elevating the Competency of Bachelor of Science in Office Administration Students: Basis for a Proposed Educational Portal”.
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@
                         </svg>
                     </a>
                     <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!
+                        The educational portal is important for the reason that it will help students of Bachelor of Science in Office Administration elevate their competencies and motivation in learning.
                     </div>
                 </div>
 
@@ -73,7 +73,7 @@
                         </svg>
                     </a>
                     <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!
+                        The educational portal will hold the course’s academic achievers, career opportunities, information about the Philippine Association of Students in Office Administration together with the students that embody it, professor’s profile, thesis outputs, applications like speed typing, and stenography dictation.
                     </div>
                 </div>
 
@@ -89,7 +89,7 @@
                         </svg>
                     </a>
                     <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!
+                        The researchers have already provided an account for each year level to be used.
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                         </svg>
                     </a>
                     <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!
+                        Yes, you will see it with the URL.
                     </div>
                 </div>
 
@@ -127,7 +127,7 @@
                         </svg>
                     </a>
                     <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!
+                        No, since the accounts are provided by the admins of the site.
                     </div>
                 </div>
 
@@ -143,7 +143,7 @@
                         </svg>
                     </a>
                     <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!
+                        Only the data that is allowed by the device used.
                     </div>
                 </div>
             </div>
@@ -165,7 +165,7 @@
                         </svg>
                     </a>
                     <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!
+                        No, it can only be accessed by BSOAD students.
                     </div>
                 </div>
 
@@ -181,7 +181,7 @@
                         </svg>
                     </a>
                     <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!
+                        Yes, the university will give you a list to be paid but the good thing is it is affordable.
                     </div>
                 </div>
 
@@ -197,7 +197,7 @@
                         </svg>
                     </a>
                     <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ex. Expedita sunt enim, vel amet cumque nulla illum harum. Similique!
+                        No, the site is completely free for you to access.
                     </div>
                 </div>
             </div>

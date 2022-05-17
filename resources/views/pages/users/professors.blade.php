@@ -44,7 +44,7 @@
                             alt="photo">
                     </div>
                     <div class="text-center">
-                        <p class="text-xl text-gray-700 font-bold mb-2">DR. RENZ CATHERINE DOMINGO</p>
+                        <p class="text-xl text-gray-700 font-bold mb-2">DR. RENZ CATHERINE DOMINGO-Doctor of Philosophy Major in Educational Management</p>
                     </div>
                 </div>
                 <div class="w-full bg-white rounded-lg shadow-lg p-12 flex flex-col justify-center items-center">
