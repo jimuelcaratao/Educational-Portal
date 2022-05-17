@@ -270,7 +270,7 @@
                             mb-5
                             "
                             >
-                        Mar 15, 2023
+                        Nov 25, 2021
                         </span>
                         <h3>
                             <a
@@ -286,12 +286,11 @@
                                 text-dark
                                 "
                                 >
-                            How to earn more money as a wellness coach
+                                THE REMINISCE OF FASHION
                             </a>
                         </h3>
                         <p class="text-base text-body-color">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.
+                            "You are what you wear," as the quote goes. Fashion is another way to express yourself to others. When it comes to office fashion attire, it is important to look presentable when you go to work. It makes a good impression not only on your boss, but also on other people in your workplace.People follow fashion trends in order to stay up to date on current trends.
                         </p>
                         <div class="w-full text-right mt-4">
                             <a class="text-gray-500 uppercase font-bold text-sm" href="{{ route('blog-2') }}">Read More</a>

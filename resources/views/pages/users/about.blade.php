@@ -37,7 +37,7 @@
                 </div>
 
                 <div class="flex justify-center m-auto w-full md:w-6/12 lg:w-3/12 mb-10">
-                    <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100" src="img/team/Ms.-Renz-G.-Domingo(Research-Professor).png" alt="professor">
+                    <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100" src="img/team/png_20220517_145253_0000.png" alt="professor">
                 </div>
 
                 <!-- Team Members -->
