@@ -51,8 +51,9 @@
                </h3> --}}
                <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-justify">
                 Steno Tutorials that you can watch from the YouTube link
-                provided. It consists of Shorthand Lessons 1 to 13 and Medical
-                OFP from Lessons 1 to 9.
+                provided. It consists of tutorials from Episode 1 to 23 and some
+                other content such as question and answer about shorthand and
+                also tips.
                </p>
            </div>
 
@@ -72,9 +73,8 @@
             </h3> --}}
             <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-justify">
                 Steno Tutorials that you can watch from the YouTube link
-                provided. It consists of tutorials from Episode 1 to 23 and some
-                other content such as question and answer about shorthand and
-                also tips.
+                provided. It consists of Shorthand Lessons 1 to 13 and Medical
+                OFP from Lessons 1 to 9.
             </p>
         </div>
        </div>

@@ -22,18 +22,22 @@
 <link rel="stylesheet" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css">
 
 <!-- Page Container -->
-<div class="flex items-center justify-center bg-white py-24">
+<div class="flex items-center justify-center bg-white py-12">
     <div class="flex flex-col">
         <div class="flex flex-col mt-8">
             <!-- Meet the Team -->
             <div class="container max-w-7xl px-4">
                 <!-- Section Header -->
-                <div class="flex flex-wrap justify-center text-center mb-24">
+                <div class="flex flex-wrap justify-center text-center mb-10">
                     <div class="w-full lg:w-6/12 px-4">
                         <!-- Header -->
-                        <h1 class="text-gray-900 text-4xl font-bold mb-4">
+                        <h1 class="text-gray-900 text-4xl font-bold">
                             Meet the Team
                     </div>
+                </div>
+
+                <div class="flex justify-center m-auto w-full md:w-6/12 lg:w-3/12 mb-10">
+                    <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100" src="img/team/Ms.-Renz-G.-Domingo(Research-Professor).png" alt="professor">
                 </div>
 
                 <!-- Team Members -->
@@ -127,7 +131,7 @@
                     </div>
 
                     <!-- Member #9 -->
-                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                    <div class="flex justify-center mx-auto w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
                         <div class="flex flex-col">
                             <!-- Avatar -->
                             <a href="#" class="mx-auto">
