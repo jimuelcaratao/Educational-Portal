@@ -112,10 +112,10 @@
                        >
                        Mission and Vission
                     </h2>
-                    <p class="text-base text-body-color">
+                    {{-- <p class="text-base text-body-color">
                        There are many variations of passages of Lorem Ipsum available
                        but the majority have suffered alteration in some form.
-                    </p>
+                    </p> --}}
                  </div>
                 <div class="flex flex-wrap items-center mt-24">
                     {{-- <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
@@ -131,13 +131,13 @@
                             environmentally conscious, globally competitive and resilient graduates.
                         </p>
                     </div> --}}
-                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-20" data-aos="fade-up">
+                    <div class="w-full md:w-6/12 ml-auto mr-auto px-4 mb-20" data-aos="fade-up">
                         <img alt="..." class="max-w-full rounded-lg shadow-lg"
-                            src="https://images.unsplash.com/photo-1521316730702-829a8e30dfd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+                            src="img/m-n-v/MISSION STATEMENT.jpg" />
                     </div>
-                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-20" data-aos="fade-up">
+                    <div class="w-full md:w-6/12 ml-auto mr-auto px-4 mb-20" data-aos="fade-up">
                         <img alt="..." class="max-w-full rounded-lg shadow-lg"
-                            src="https://images.unsplash.com/photo-1521316730702-829a8e30dfd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+                            src="img/m-n-v/VISION STATEMENT.jpg" />
                     </div>
                 </div>
             </div>
@@ -173,7 +173,7 @@
                     <div class="max-w-[370px] mx-auto mb-10">
                     <div class="rounded overflow-hidden mb-8">
                         <img
-                            src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-01.jpg"
+                            src="img/blog/blog-1.jpg"
                             alt="image"
                             class="w-full"
                             />
@@ -249,7 +249,7 @@
                     <div class="max-w-[370px] mx-auto mb-10">
                     <div class="rounded overflow-hidden mb-8">
                         <img
-                            src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-02.jpg"
+                            src="img/blog/blog-2.jpg"
                             alt="image"
                             class="w-full"
                             />

@@ -60,7 +60,6 @@ class PaperController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'title' => 'required',
-            'body' => 'required',
             'author_name' => 'required',
             'section' => 'required',
             'year' => 'required',

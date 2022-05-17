@@ -19,7 +19,7 @@ class UserTableSeeder extends Seeder
         // 0 = Normal Acc
         User::firstOrCreate([
             'name' => 'John Doe',
-            'email' => 'johndoe@gmail.com',
+            'email' => 'bsoa1a@gmail.com',
             'is_admin' => 0,
             'section' => 'A',
             'year' => '1',
@@ -29,7 +29,7 @@ class UserTableSeeder extends Seeder
 
         User::firstOrCreate([
             'name' => 'Rick Sanchez',
-            'email' => 'ricksanchez@gmail.com',
+            'email' => 'bsoa2a@gmail.com',
             'is_admin' => 0,
             'section' => 'A',
             'year' => '2',
@@ -38,7 +38,7 @@ class UserTableSeeder extends Seeder
         ]);
         User::firstOrCreate([
             'name' => 'Patrick Star',
-            'email' => 'patstar@gmail.com',
+            'email' => 'bsoa3a@gmail.com',
             'is_admin' => 0,
             'section' => 'A',
             'year' => '3',
@@ -47,7 +47,7 @@ class UserTableSeeder extends Seeder
         ]);
         User::firstOrCreate([
             'name' => 'Bart Simpson',
-            'email' => 'bartsimpson@gmail.com',
+            'email' => 'bsoa4a@gmail.com',
             'is_admin' => 0,
             'section' => 'A',
             'year' => '4',

@@ -89,7 +89,8 @@
 
                                         <div class="col-span-6 sm:col-span-3">
                                             <label for="author_name"
-                                                class="block text-sm font-medium text-gray-700">Author Name</label>
+                                                class="block text-sm font-medium text-gray-700">Author Name (BSOAD
+                                                students) </label>
                                             <input type="text" name="author_name" id="author_name"
                                                 :value="old('author_name')" required placeholder="John Doe"
                                                 class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
@@ -117,10 +118,10 @@
 
                                         <div class="col-span-6 sm:col-span-3">
                                             <label for="published_date"
-                                                class="block text-sm font-medium text-gray-700">Date Published
-                                                (MM/DD/YYYY)</label>
+                                                class="block text-sm font-medium text-gray-700">Year Published
+                                                (YYYY) or (YYYY - YYYY)</label>
                                             <input type="text" name="published_date" id="published_date"
-                                                :value="old('published_date')" required placeholder="03/21/20XX"
+                                                :value="old('published_date')" required placeholder="YYYY"
                                                 class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
                                         </div>
 
@@ -129,7 +130,7 @@
                                                 Description
                                             </label>
                                             <div class="mt-1">
-                                                <textarea id="body" name="body" rows="10" required class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
+                                                <textarea id="body" name="body" rows="10" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
                                                     placeholder="you@example.com"></textarea>
                                             </div>
                                             <p class="mt-2 text-sm text-gray-500">

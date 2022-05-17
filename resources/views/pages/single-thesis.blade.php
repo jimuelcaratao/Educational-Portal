@@ -59,7 +59,7 @@
             </div>
 
             <div class="description mt-2 mb-2 text-sm text-gray-600 ">
-                {{ $thesis->user->name }}
+                {{ $thesis->author_name }}
             </div>
 
             <div class="description text-base text-gray-800 uppercase">
